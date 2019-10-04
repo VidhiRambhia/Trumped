@@ -3,7 +3,7 @@ from flask_wtf.file import FileField, FileAllowed
 from flask_login import current_user
 from wtforms import StringField, IntegerField, RadioField, BooleanField, PasswordField, SubmitField, TextAreaField, SelectField, HiddenField, DateField
 from wtforms.validators import DataRequired, Length, Email, EqualTo, Required, NumberRange, ValidationError
-from NSV_KJ.models import User
+from app.models import User
 
 class UserForm(FlaskForm):
 	name = StringField('Name', validators = [DataRequired(), Length(max = 30)])

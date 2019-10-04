@@ -11,9 +11,9 @@ from flask_bootstrap import Bootstrap
 from flask_datepicker import datepicker
 from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
-from NSV_KJ import app, db
-from NSV_KJ.forms import UserForm, LoginForm, UpdateDetails
-from NSV_KJ.models import User
+from app import app, db
+from app.forms import UserForm, LoginForm, UpdateDetails
+from app.models import User
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
