@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="logPage valign col s12 center-align transparent">
+		<form method="POST" action="/userRegister" enctype="multipart/form-data">
+			{{ form.hidden_tag() }}
+			<fieldset class="form-group">
+				<h3 class="brown-text darken-2"><b>User</b></h3>
+				<hr>
+
+				<div class="form-group">
+					<h5> {{ form.name.label(class="black-text") }} </h5>
+					{% if form.name.errors %}
+						{{ form.name(class="form-control form-control-lg is-invalid") }}
+						<div class="invalid-feedback">
+							{% for error in form.name.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+						</div>
+					{% else %}
+						{{ form.name(class="form-control form-control-lg") }}
+					{% endif %}
+				</div>
+
+
+				<div class="form-group white-text">
+					<h5> {{ form.email.label(class="black-text form-control-label") }} </h5>
+					{% if form.email.errors %}
+						{{ form.email(class="form-control form-control-lg is-invalid") }}
+						<div class="invalid-feedback">
+							{% for error in form.email.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+						</div>
+					{% else %}
+						{{ form.email(class="black-text form-control form-control-lg") }}
+					{% endif %}
+				</div>
+
+
+				<div class="form-group">
+					<h5> {{ form.password.label(class="black-text form-control-label") }} </h5>
+					{% if form.password.errors %}
+						{{ form.password(class="form-control form-control-lg is-invalid") }}
+						<div class="invalid-feedback">
+							{% for error in form.password.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+						</div>
+					{% else %}
+						{{ form.password(class="form-control form-control-lg") }}
+					{% endif %}
+				</div>
+
+				<hr>
+
+				<div class="form-group">
+					<h6> {{ form.photo.label(class="black-text form-control-label") }} </h6>
+					{% if form.photo.errors %}
+						{{ form.photo(class="form-control form-control-lg is-invalid") }}
+						<div class="invalid-feedback">
+							{% for error in form.photo.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+						</div>
+					{% else %}
+						{{ form.photo(class="form-control form-control-lg") }}
+					{% endif %}
+				</div>
+
+
+			<div class="form-group">
+				{{ form.submit(class="button-border hoverable waves-effect waves-light btn-large amber black-text") }}
+			</div>
+
+			<small class="text-muted">
+				Already Have An Account? <a class="ml-2" href="{{ url_for('login') }}">Sign In</a>
+			</small>
+		</form>
+			<br>
+	<hr>
+	</div>
+
+{% endblock content %}

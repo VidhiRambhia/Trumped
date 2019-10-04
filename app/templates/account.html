@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+{% block content %}
+<hr>
+      <div class="row valign wrapper">
+        <div class="col s6">
+            <a href = "{{ url_for('static', filename='user/' + user.photo) }}"> <img class="circle responive-img account-img" src="{{ photo }}"> </a>
+        </div>
+        <div class="col s4">
+          <h3 class="account-heading black-text"><b>Welcome, </b>{{ current_user.name }}<br>
+        </div>
+      </div>
+
+    <div class = "dim card amber accent-2 hoverable col s12">
+        <form method="POST" action="/account" enctype="multipart/form-data">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <h4 class="brown-text-text darken-1"><b>Account Info</b></h4>
+                <div class="form-group">
+                    <h5 class = "brown-text darken-1">Is this username fine?</h5>
+                    {% if form.name.errors %}
+                        {{ form.name(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.name.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.name(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <h5 class = "brown-text darken-1">Email</h5>
+                    {% if form.email.errors %}
+                        {{ form.email(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.email.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.email(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <hr>
+
+                <div class="form-group">
+                    <h5 class = "brown-text darken-1">Update your gallery</h5>
+                    {{ form.photo(class="form-control-file") }}
+                    {% if form.photo.errors %}
+                        {% for error in form.photo.errors %}
+                            <span class="text-danger">{{ error }}</span></br>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+
+                <hr>
+
+            </fieldset>
+            <div class="form-group valign center-align">
+                <b> {{ form.submit(class="button-border hoverable waves-effect waves-light btn-large brown darken-1 white-text") }} </b>
+            </div>
+        </form>
+    </div>
+    </div>
+{% endblock content %}

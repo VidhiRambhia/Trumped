@@ -7,8 +7,8 @@ import dialogflow, json, pusher, requests
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Central.db'
+app.config['SECRET_KEY'] = '5797628bb0b13ue0c576dfde280fg245'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///NSV.db'
 db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'

@@ -31,7 +31,7 @@ EXTENSION
  MAINTAINERS
  -----------
 
-This project has been developed in the final round of *Barclays India Hackathon 2019*, at Pune, India in the time period of one day.
+This project has been developed in  *KJSCE Hack 2019*, at K.J. Somaiya College of Engineering, Vidyavihar, India in the time period of one day.
 The contributors to the project and this repository are :
 
 Ms. Nidhee Kamble (nidheekamble)<br>

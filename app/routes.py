@@ -35,7 +35,7 @@ def userRegister():
 			s = s+a #sum of ASCIIs acts as the salt
 		hashed_password = (str)((hashlib.sha512((str(s).encode('utf-8'))+((form.password.data).encode('utf-8')))).hexdigest())
 	
-		user = user(email=form.email.data, name=form.name.data, password = hashed_password)
+		user = User(email=form.email.data, name=form.name.data, password = hashed_password)
 		db.session.add(user)
 		db.session.commit()
 		print("before pic")
@@ -53,7 +53,7 @@ def userRegister():
 
 	print('form not validated')
 	print(form.errors)
-	return render_template('user.html', title='user', form=form)
+	return render_template('userRegister.html', title='Register', form=form)
 
 def save_photo(form_photo):
 	random_hex = secrets.token_hex(8)
@@ -75,7 +75,7 @@ def login():
 	form = LoginForm(request.form)
 
 	if form.validate_on_submit():
-		user = user.query.filter_by(email=form.email.data).first()
+		user = User.query.filter_by(email=form.email.data).first()
 		pw = (form.password.data)
 		s = 0
 		for char in pw:
@@ -103,7 +103,7 @@ def account():
 	print(user)
 	if updateForm.validate_on_submit():
 
-		user = user(email=updateForm.email.data, name=updateForm.name.data, password=updateForm.password.data)
+		user = User(email=updateForm.email.data, name=updateForm.name.data, password=updateForm.password.data)
 		user.type = 'user'
 
 		# IF ANY PHOTOS ARE UPDATED (Current)
@@ -150,7 +150,7 @@ def retrieveFavourites():
 	print(userStockPair)
 	return userStockPair
 
-@app.route('showFav', methods=['POST'])
+@app.route('/showFav', methods=['POST'])
 def showFavourites():
 
 	userStockPair = retrieveFavourites()

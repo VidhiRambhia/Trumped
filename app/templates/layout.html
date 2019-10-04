@@ -36,13 +36,13 @@
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
-                <a class="hoverable nav-item nav-link" href="{{ url_for('') }}"><span class = 'pink-text darken-4'><b>menu1</b></a><span>
-                <a class="hoverable nav-item nav-link" href="{{ url_for('') }}"><span class = 'pink-text darken-4'><b>menu2</b></a><span>
+                <a class="hoverable nav-item nav-link" href="#"><span class = 'pink-text darken-4'><b>menu1</b></a><span>
+                <a class="hoverable nav-item nav-link" href="#"><span class = 'pink-text darken-4'><b>menu2</b></a><span>
                 {% if current_user.is_authenticated %}
                   <a class="hoverable nav-item nav-link" href="{{ url_for('account') }}"><span class = 'pink-text darken-4'><b>Account</b></a><span>
                   <a class="hoverable nav-item nav-link" href="{{ url_for('logout') }}"><span class = 'pink-text darken-4'><b>Logout</b></a><span>
                 {% else %}
-                  <a class="hoverable nav-item nav-link" href="{{ url_for('regOrg') }}"><span class = 'pink-text darken-4'><b>Register</b></a><span>
+                  <a class="hoverable nav-item nav-link" href="{{ url_for('userRegister') }}"><span class = 'pink-text darken-4'><b>Register</b></a><span>
                   <a class="hoverable nav-item nav-link" href="{{ url_for('login') }}"><span class = 'pink-text darken-4'><b>Login</b></a><span>
                 {% endif %}
             </div>

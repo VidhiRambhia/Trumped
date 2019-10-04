@@ -1,2 +1,2 @@
-from NSV_KJ import db
+from app import db
 db.create_all()
