@@ -29,6 +29,7 @@ class UpdateDetails(FlaskForm):
 	email = StringField('Email', validators = [Email()])
 	password = PasswordField('New Password')
 	photo = FileField('Photo',validators=[FileAllowed(['jpg', 'png'])])
+	submit = SubmitField('Update')
 
 	def validateEmail(self, Email):
 		user = User.query.filter_by(email=email.data).first()

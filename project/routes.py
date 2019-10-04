@@ -35,12 +35,7 @@ def userRegister():
 			a = ord(char) #ASCII
 			s = s+a #sum of ASCIIs acts as the salt
 		hashed_password = (str)((hashlib.sha512((str(s).encode('utf-8'))+((form.password.data).encode('utf-8')))).hexdigest())
-		user_last = User.query.all().pop()
-		if user_last == None:
-			id = 0
-		else:
-			id = user_last.id+1
-		user = User(id = id,email=form.email.data, name=form.name.data, password = hashed_password)
+		user = User(email=form.email.data, name=form.name.data, password = hashed_password)
 		
 		print("before pic")
 		print(user.id)
@@ -48,9 +43,12 @@ def userRegister():
 		if form.photo.data:
 			photo_file = save_photo(form.photo1.data)
 			user.photo = photo_file
-			photo = url_for('static', filename='user/' + user.photo1)
+			photo = url_for('static', filename='user/' + user.photo)
 
 		db.session.add(user)
+		db.session.commit()
+
+		user = User(id=user.id)
 		db.session.commit()
 		print(user)
 
