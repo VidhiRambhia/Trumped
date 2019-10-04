@@ -11,9 +11,9 @@ from flask_bootstrap import Bootstrap
 from flask_datepicker import datepicker
 from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
-from app import app, db
-from app.forms import UserForm, LoginForm, UpdateDetails
-from app.models import User
+from project import app, db
+from project.forms import UserForm, LoginForm, UpdateDetails
+from project.models import User
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
@@ -23,8 +23,11 @@ from PIL import Image
 def home():
 	return render_template('home.html', title='Home')
 
+ID_COUNT = 1
+
 @app.route("/userRegister", methods = ['GET', 'POST'])
 def userRegister():
+	global ID_COUNT
 	form = UserForm()
 	if form.validate_on_submit():
 		
@@ -34,11 +37,11 @@ def userRegister():
 			a = ord(char) #ASCII
 			s = s+a #sum of ASCIIs acts as the salt
 		hashed_password = (str)((hashlib.sha512((str(s).encode('utf-8'))+((form.password.data).encode('utf-8')))).hexdigest())
-	
+		
 		user = User(email=form.email.data, name=form.name.data, password = hashed_password)
-		db.session.add(user)
-		db.session.commit()
+		ID_COUNT += 1
 		print("before pic")
+		print(user.id)
 
 		if form.photo.data:
 			photo_file = save_photo(form.photo1.data)
@@ -50,9 +53,9 @@ def userRegister():
 		print(user)
 
 		return redirect(url_for('login'))
-
-	print('form not validated')
-	print(form.errors)
+	else:
+		print('form not validated')
+		print(form.errors)
 	return render_template('userRegister.html', title='Register', form=form)
 
 def save_photo(form_photo):
