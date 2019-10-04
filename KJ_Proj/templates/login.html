@@ -8,7 +8,7 @@
         <form method="POST" action="/login">
             {{ form.hidden_tag() }}
             <fieldset class="form-group">
-                <h3 class="amber-text"><b>Organizers: <br> Log In</b></h3>
+                <h3 class="amber-text"><b>User: <br> Log In</b></h3>
                 <b><hr></b>
                 <br>
 
@@ -47,7 +47,7 @@
             
         <hr>
         <small class="text-muted">
-            Are you an organizer but don't have an account? <a class="ml-2" href="{{ url_for('regOrg') }}">Register now</a>
+            Don't have an account? <a class="ml-2" href="{{ url_for('userRegister') }}">Register now</a>
         </small>
         </div>
         </form>
