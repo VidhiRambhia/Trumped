@@ -23,8 +23,6 @@ from PIL import Image
 def home():
 	return render_template('home.html', title='Home')
 
-ID_COUNT = 1
-
 @app.route("/userRegister", methods = ['GET', 'POST'])
 def userRegister():
 	global ID_COUNT
@@ -37,9 +35,13 @@ def userRegister():
 			a = ord(char) #ASCII
 			s = s+a #sum of ASCIIs acts as the salt
 		hashed_password = (str)((hashlib.sha512((str(s).encode('utf-8'))+((form.password.data).encode('utf-8')))).hexdigest())
+		user_last = User.query.all().pop()
+		if user_last == None:
+			id = 0
+		else:
+			id = user_last.id+1
+		user = User(id = id,email=form.email.data, name=form.name.data, password = hashed_password)
 		
-		user = User(email=form.email.data, name=form.name.data, password = hashed_password)
-		ID_COUNT += 1
 		print("before pic")
 		print(user.id)
 
