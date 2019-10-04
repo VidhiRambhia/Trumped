@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<html itemscope itemtype="http://schema.org/Article">
+<body>
+<br>
+    <div class="logPage valign col s12 center-align transparent">
+        <form method="POST" action="/login">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <h3 class="amber-text"><b>Organizers: <br> Log In</b></h3>
+                <b><hr></b>
+                <br>
+
+                <div class="form-group">
+                    {{ form.email.label(class="form-control-label") }}
+                    {% if form.email.errors %}
+                        {{ form.email(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.email.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.email(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {{ form.password.label(class="form-control-label") }}
+                    {% if form.password.errors %}
+                        {{ form.password(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.password.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.password(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            <br>
+            
+            <div class="form-group">
+            {{ form.submit(class="button-border hoverable waves-effect waves-light btn-large amber lighten-3 black-text") }}
+            </div>
+        </form>
+            
+        <hr>
+        <small class="text-muted">
+            Are you an organizer but don't have an account? <a class="ml-2" href="{{ url_for('regOrg') }}">Register now</a>
+        </small>
+        </div>
+        </form>
+
+    </body>
+</html>
+{% endblock content %}
