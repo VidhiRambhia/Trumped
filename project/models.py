@@ -22,9 +22,9 @@ class Posts(db.Model):
 	__tablename__ = 'posts'
 	id = db.Column(db.Integer, primary_key = True)
 	title = db.Column(db.String(1000), nullable = False)
-	text = db.Column(db.String(3000),unique=True,nullable = False)
+	text = db.Column(db.String(3000),nullable = False)
 	author = db.Column(db.String(128), unique = False, nullable = False)
-	type_of_post = db.Column(db.String(500), unique= True, nullable = True)
+	type_of_post = db.Column(db.String(500),unique = False, nullable = True)
 	real = db.Column(db.Integer, nullable=True)
 	#user_id = db.relationship("User_id", back_populates = "user")
 	user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable= False)

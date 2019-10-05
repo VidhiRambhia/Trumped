@@ -159,12 +159,26 @@ def publish():
 
 		## Uncomment this part
 		if predicted[0] == 0:
-			posts.real = 1
+			post.real = 1
+			category_list = ["sport", "world", "us", "business", "health", "entertainment", "sci_tech"]
+
+			
+
+#LOAD MODEL
+			loaded_vec = CountVectorizer(vocabulary=pickle.load(open("project/count_vector_type.pkl", "rb")))
+			loaded_tfidf = pickle.load(open("project/tfidf_type.pkl","rb"))
+			loaded_model = pickle.load(open("project/nb_model_type.pkl","rb"))
+
+			X_new_counts = loaded_vec.transform(docs_new)
+			X_new_tfidf = loaded_tfidf.transform(X_new_counts)
+			predicted = loaded_model.predict(X_new_tfidf)
+
+			print(category_list[predicted[0]])
 
 			###### Type of post ML code runs here
-			#type_of_post = Output
-			#posts.type_of_post = type_of_post
-			db.session.add(posts)
+			type_of_post = str(category_list[predicted[0]])
+			post.type_of_post = type_of_post
+			db.session.add(post)
 			db.session.commit()
 			return redirect(url_for('account'))
 
