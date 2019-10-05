@@ -26,5 +26,6 @@ class Posts(object):
 	author = db.Column(db.String(128), unique = False, nullable = False)
 	type_of_post = db.Column(db.String(500), unique= True, nullable = False)
 	real = db.Column(db.Integer, nullable=False)
-	user_id = db.relationship("User_id", back_poulates = "user")
+	user_id = db.relationship("User_id", back_populates = "user")
 		
+

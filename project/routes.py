@@ -13,7 +13,7 @@ from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from project import app, db
 from project.forms import UserForm, LoginForm, UpdateDetails
-from project.models import User
+from project.models import Publisher,Posts
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
