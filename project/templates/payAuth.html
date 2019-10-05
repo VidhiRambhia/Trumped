@@ -33,8 +33,8 @@
       })
       const initPayButton = () => {
         $('.pay-button').click(() => {
-          // paymentAddress is where funds will be send to
-          const paymentAddress = '0x7A5237b1975406F7B7ED4Da82b9221328B7eEa8D'
+
+          const paymentAddress = '0x2f860BF52aF0B67B3EC511027A95cA663c0C841B'// Harishchandra's wallet
           const amountEth = 0.5
           web3.eth.sendTransaction({
             to: paymentAddress,
@@ -45,7 +45,7 @@
               $('#status').html('Payment failed')
             } else {
               console.log('Payment successful', transactionId)
-              $('#status').html('<br><br><br><a href="{{ url_for('publish') }}" class="button-border hoverable waves-effect waves-light btn-large amber accent-2 black-text">Publish</a>')
+              $('#status').html('<br><br><br><a href="{{ url_for('view') }}" class="button-border hoverable waves-effect waves-light btn-large amber accent-2 black-text">View news</a>')
             }
           })
         })
