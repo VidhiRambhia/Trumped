@@ -37,7 +37,7 @@ class UpdateDetails(FlaskForm):
 class PublishForm(FlaskForm):
 	author = StringField('By', validators = [Length(max=1024)])
 	title = StringField('Title of the Post', validators = [Length(max=2046)])
-	text = StringField('What's the news?, validators = [Length(max=100000)])
+	text = StringField("What's the news?", validators = [Length(max=100000)])
 	post = SubmitField('Post it!')
 
-	
+
