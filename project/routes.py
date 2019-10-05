@@ -41,9 +41,7 @@ def userRegister():
 
 		db.session.add(user)
 		db.session.commit()
-
-		user = User(id=user.id)
-		db.session.commit()
+		print(user)
 		print(user)
 
 		return redirect(url_for('login'))
