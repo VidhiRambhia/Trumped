@@ -15,6 +15,14 @@ from project import app, db
 from project.forms import UserForm, LoginForm, UpdateDetails,PublishForm
 from project.models import User, Posts, Blacklist
 from PIL import Image
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+import pickle
 
 
 ### ESSENTIAL ROUTES ###
@@ -132,26 +140,37 @@ def publish():
 	form = PublishForm()
 	if form.validate_on_submit():
 		post = Posts(title = form.title.data,author = form.author.data,text = form.text.data,user_id = user.id)
-		db.session.add(post)
-		db.session.commit()
 		print(post)
 
 		##### ML CODE RUNS HERE
+		docs_new= post.author+''+post.title+''+post.text
+		docs_new = [docs_new]
+
+		#LOAD MODEL
+		loaded_vec = CountVectorizer(vocabulary=pickle.load(open("project/count_vector_fake.pkl", "rb")))
+		loaded_tfidf = pickle.load(open("project/tfidf_fake.pkl","rb"))
+		loaded_model = pickle.load(open("project/logreg_fake.pkl","rb"))
+
+		X_new_counts = loaded_vec.transform(docs_new)
+		X_new_tfidf = loaded_tfidf.transform(X_new_counts)
+		predicted = loaded_model.predict(X_new_tfidf)
+
+		print(predicted[0])
 
 		## Uncomment this part
-		#if code == 0:
-			#posts.real = 1
+		if predicted[0] == 0:
+			posts.real = 1
 
 			###### Type of post ML code runs here
 			#type_of_post = Output
 			#posts.type_of_post = type_of_post
-			#db.session.add(posts)
-			#db.session.commit()
-			#return redirect(url_for('account'))
+			db.session.add(posts)
+			db.session.commit()
+			return redirect(url_for('account'))
 
-		#else:
-			#blacklisted_user = Blacklist(email = user.email,user_id = user.id)
-			#return render_template("blacklist.html", title='Fake Alert!')
+		else:
+			blacklisted_user = Blacklist(email = user.email,user_id = user.id)
+			return render_template("blacklist.html", title='Fake Alert!')
 
 	else:
 		print("Form not validated")

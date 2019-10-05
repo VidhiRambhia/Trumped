@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+project/count_vector_fake.pkl
+project/tfidf_fake.pkl
+project/logreg_fake.pkl
