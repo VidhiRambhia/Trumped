@@ -106,3 +106,7 @@ venv.bak/
 project/count_vector_fake.pkl
 project/tfidf_fake.pkl
 project/logreg_fake.pkl
+project/nb_model_type.pkl
+project/tfidf_type.pkl
+project/nb_model_type.pkl
+project/count_vector_type.pkl
