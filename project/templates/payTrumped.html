@@ -22,20 +22,20 @@
             await ethereum.enable();
             initPayButton()
           } catch (err) {
-            $('#status').html('User denied account access', err)
+            $('#status').html('Account access denied', err)
           }
         } else if (window.web3) {
           window.web3 = new Web3(web3.currentProvider)
           initPayButton()
         } else {
-          $('#status').html('No Metamask (or other Web3 Provider) installed')
+          $('#status').html('No Metamask or other Web3 Provider installed')
         }
       })
       const initPayButton = () => {
         $('.pay-button').click(() => {
 
           const paymentAddress = '0x7A5237b1975406F7B7ED4Da82b9221328B7eEa8D'// trumped's wallet
-          const amountEth = 0.5
+          const amountEth = 3
           web3.eth.sendTransaction({
             to: paymentAddress,
             value: web3.toWei(amountEth, 'ether')
@@ -59,7 +59,7 @@
     <br>
     <br>
     <br>
-    <p class = "black-text">© October 2019 <b>NSV, KJHack</b></p>
+    <p class = "yellow-text">© October 2019 <b>NSV, KJHack</b></p>
   </div>
   
 </body>
