@@ -1,6 +1,16 @@
 .dim
 {
-    width: 70vw;
+    width: 80vw;
+    display: block;
+    top:0;
+    left:0
+    right:0;
+
+}
+
+.dimCat
+{
+    width: 65vw;
     display: block;
     top:0;
     left:0
@@ -40,12 +50,12 @@
 
 .topnav a:hover
 {
-  background-color: #424242;
+  background-color: #b71c1c ;
 }
 
 .btn-large:hover
 {
-    background-color: #ffab00;
+    background-color: #b71c1c ;
 }
 
 .button-border
