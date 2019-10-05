@@ -142,3 +142,10 @@ def logout():
 	logout_user()
 	return redirect(url_for('home'))
 	flash('You have been logged out', 'success')
+
+
+### BEFORE YOU PROCEED ###
+
+@app.route("/payment")
+def payment():
+	return render_template('payment.html', title='Payment')
