@@ -16,6 +16,7 @@ from project.forms import UserForm, LoginForm, UpdateDetails,PublishForm
 from project.models import User, Posts, Blacklist
 from PIL import Image
 
+
 ### ESSENTIAL ROUTES ###
 
 @app.route("/")
@@ -100,6 +101,29 @@ def account():
 
 	return render_template("account.html", title='Account', form=updateForm, user=user)
 
+
+@app.route("/logout")
+def logout():
+	logout_user()
+	return redirect(url_for('home'))
+	flash('You have been logged out', 'success')
+
+
+
+### METAMASK ###
+
+@app.route("/payTrumped")
+def payTrumped():
+	return render_template('payTrumped.html', title='Security Deposit')
+
+@app.route("/payAuth")
+def payAuth():
+	return render_template('payAuth.html', title='Encourage Authenticity')
+
+
+
+### FUNCTIONALITIES ###
+
 @app.route("/publish",methods = ['GET','POST'])
 @login_required
 def publish():
@@ -141,28 +165,18 @@ def user2_account(org_id):
 	user = User.query.filter_by(id = org_id).first()
 	return render_template('viewUserAccount.html', title='ViewUser', user=user)
 
+
 @app.route("/view")
 def view():
 	return render_template("view.html",title = 'View Custom News')
 
-@app.route("/view_list")
-def view_list():
-	return render_template("view_list.html",title = 'View News')
+
+@app.route("/viewList/<type>")
+def viewList(type):
+	newsList = Posts.query.filter_by(type_of_post=type).all
+	return render_template("viewList.html",title = 'View News', newsList = newsList)
+
 
 @app.route("/viewNews")
 def viewNews():
 	return render_template('viewNews.html', title='News')
-
-@app.route("/logout")
-def logout():
-	logout_user()
-	return redirect(url_for('home'))
-	flash('You have been logged out', 'success')
-
-
-### BEFORE YOU PROCEED ###
-
-@app.route("/payTrumped")
-def payTrumped():
-	return render_template('payTrumped.html', title='Payment')
-
