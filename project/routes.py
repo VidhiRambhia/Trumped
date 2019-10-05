@@ -13,7 +13,7 @@ from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from project import app, db
 from project.forms import UserForm, LoginForm, UpdateDetails,PublishForm
-from project.models import User, Posts
+from project.models import User, Posts,Black
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
@@ -103,7 +103,35 @@ def account():
 @app.route("/publish",methods = ['GET','POST'])
 @login_required
 def publish():
-	publishForm = PublishForm()
+	user = User.query.filter_by(id=current_user.id).first()
+	print(user)
+	form = PublishForm()
+	if form.validate_on_submit():
+		posts = Posts(title = form.title.data,author = form.author.data,text = form.text.data,user_id = user.id)
+		db.session.add(posts)
+		db.session.commit()
+		print(posts)
+		##### ML CODE RUNS HERE
+
+		## Uncomment this part
+		#if code == 0:
+			#posts.real = 1
+
+			###### Type of post ML code runs here
+			#type_of_post = Output
+			#posts.type_of_post = type_of_post
+			#db.session.add(posts)
+			#db.session.commit()
+			#return redirect(url_for('account'))
+
+		#else:
+			#blacklisted_user = Blacklist(email = user.email,user_id = user.id)
+			#return render_template("blacklist.html", title='Fake Alert!')
+
+	else:
+		print("Form not validated")
+
+	return render_template("publish.html", title='Publish', form=form, user = user)
 
 
 @app.route("/viewuser/<user_id>", methods = ['GET', 'POST'])

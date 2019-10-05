@@ -12,14 +12,14 @@ class User(db.Model,UserMixin):
 	name = db.Column(db.String(30), nullable = False)
 	password = db.Column(db.String(128), unique = False, nullable = False)
 	address = db.Column(db.String(500), unique= True, nullable = True)
-	posts = db.relationship("Posts", uselist=False, back_populates="user")
-	is_blacklisted = db.relationship("Blacklist", uselist=False, back_populates="user")
+	posts_relation = db.relationship("Posts", backref="user",lazy = 'dynamic')
+	is_blacklisted = db.relationship("Blacklist", backref="user",lazy = 'dynamic')
 	def __repr__(self):
 		return f"User('{self.id}', {self.name}', '{self.email}')"
 
 class Posts(db.Model):
 	"""docstring for Posts"""
-	__tablename__ = 'post'
+	__tablename__ = 'posts'
 	id = db.Column(db.Integer, primary_key = True)
 	title = db.Column(db.String(1000), nullable = False)
 	text = db.Column(db.String(3000),unique=True,nullable = False)
