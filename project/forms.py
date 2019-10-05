@@ -9,7 +9,6 @@ class UserForm(FlaskForm):
 	name = StringField('Name', validators = [DataRequired(), Length(max = 30)])
 	email = StringField('Email', validators = [DataRequired(), Email()])
 	password = PasswordField('Password', validators=[DataRequired()])
-	photo = FileField('Add picture',validators=[FileAllowed(['jpg', 'png'])])
 	submit = SubmitField('Done')
 
 	def validateEmail(self, Email):
@@ -28,7 +27,6 @@ class UpdateDetails(FlaskForm):
 	name = StringField('Name', validators = [Length(max=30)])
 	email = StringField('Email', validators = [Email()])
 	password = PasswordField('New Password')
-	photo = FileField('Photo',validators=[FileAllowed(['jpg', 'png'])])
 	submit = SubmitField('Update')
 
 	def validateEmail(self, Email):

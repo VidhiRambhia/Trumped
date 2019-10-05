@@ -54,21 +54,6 @@
 
 				<hr>
 
-				<div class="form-group">
-					<h6> {{ form.photo.label(class="black-text form-control-label") }} </h6>
-					{% if form.photo.errors %}
-						{{ form.photo(class="form-control form-control-lg is-invalid") }}
-						<div class="invalid-feedback">
-							{% for error in form.photo.errors %}
-								<span>{{ error }}</span>
-							{% endfor %}
-						</div>
-					{% else %}
-						{{ form.photo(class="form-control form-control-lg") }}
-					{% endif %}
-				</div>
-
-
 			<div class="form-group">
 				{{ form.submit(class="button-border hoverable waves-effect waves-light btn-large amber black-text") }}
 			</div>

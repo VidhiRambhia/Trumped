@@ -13,7 +13,7 @@ from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from project import app, db
 from project.forms import UserForm, LoginForm, UpdateDetails
-from project.models import Publisher,Posts
+from project.models import User, Posts
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
@@ -37,13 +37,7 @@ def userRegister():
 		hashed_password = (str)((hashlib.sha512((str(s).encode('utf-8'))+((form.password.data).encode('utf-8')))).hexdigest())
 		user = User(email=form.email.data, name=form.name.data, password = hashed_password)
 		
-		print("before pic")
 		print(user.id)
-
-		if form.photo.data:
-			photo_file = save_photo(form.photo1.data)
-			user.photo = photo_file
-			photo = url_for('static', filename='user/' + user.photo)
 
 		db.session.add(user)
 		db.session.commit()
@@ -57,20 +51,6 @@ def userRegister():
 		print('form not validated')
 		print(form.errors)
 	return render_template('userRegister.html', title='Register', form=form)
-
-def save_photo(form_photo):
-	random_hex = secrets.token_hex(8)
-	_, f_ext = os.path.splitext(form_photo.filename)
-	photo_fn = random_hex + f_ext
-	## Don't use static\user, pass them as separate arguments
-	photo_path = os.path.join(app.root_path, 'static','user', photo_fn)
-	print('PHOTO TO BE SAVED:: ', photo_path)
-	output_size = (125, 125)
-	i = Image.open(form_photo)
-	i.thumbnail(output_size)
-	#this will fail if static/user folder doesn't exist
-	i.save(photo_path)
-	return photo_fn
 
 
 @app.route("/login", methods = ['GET','POST'])
@@ -109,11 +89,6 @@ def account():
 		user = User(email=updateForm.email.data, name=updateForm.name.data, password=updateForm.password.data)
 		user.type = 'user'
 
-		# IF ANY PHOTOS ARE UPDATED (Current)
-		if updateForm.photo.data:
-			photo_file = save_photo(updateForm.photo.data)
-			user.photo = photo_file
-
 		db.session.commit()
 		print(user)
 		flash('Your account has been updated!', 'success')
@@ -124,10 +99,8 @@ def account():
 		updateForm.name.data = user.name
 		updateForm.password.data = user.password
 		print('Previous content loaded')
-	# OLD PHOTO (registration ke waqt ka)
-	photo = url_for('static', filename='user/' + user.photo)
 
-	return render_template("account.html", title='Account', form=updateForm, user=user, photo=photo)
+	return render_template("account.html", title='Account', form=updateForm, user=user)
 
 
 @app.route("/viewuser/<user_id>", methods = ['GET', 'POST'])

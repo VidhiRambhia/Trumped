@@ -2,9 +2,6 @@
 {% block content %}
 <hr>
       <div class="row valign wrapper">
-        <div class="col s6">
-            <a href = "{{ url_for('static', filename='user/' + user.photo) }}"> <img class="circle responive-img account-img" src="{{ photo }}"> </a>
-        </div>
         <div class="col s4">
           <h3 class="account-heading black-text"><b>Welcome, </b>{{ current_user.name }}<br>
         </div>
@@ -44,16 +41,6 @@
                 </div>
 
                 <hr>
-
-                <div class="form-group">
-                    <h5 class = "brown-text darken-1">Update your gallery</h5>
-                    {{ form.photo(class="form-control-file") }}
-                    {% if form.photo.errors %}
-                        {% for error in form.photo.errors %}
-                            <span class="text-danger">{{ error }}</span></br>
-                        {% endfor %}
-                    {% endif %}
-                </div>
 
                 <hr>
 
