@@ -1,3 +1,4 @@
+
 from flask_login import UserMixin
 from project import login_manager, db
 
@@ -33,6 +34,6 @@ class Posts(db.Model):
 		return f"User('{self.id}', {self.title}', '{self.author}', '{self.type_of_post}', '{self.real}', '{self.user_id}')"	
 
 class Blacklist(db.Model):
-	__tablename__ = 'post'
+	__tablename__ = 'blacklist'
 	email = db.Column(db.String(30),primary_key = True)
 	user_id = db.Column(db.Integer, db.ForeignKey('user.id'),nullable = False)

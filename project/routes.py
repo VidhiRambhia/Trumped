@@ -13,7 +13,11 @@ from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from project import app, db
 from project.forms import UserForm, LoginForm, UpdateDetails,PublishForm
+<<<<<<< HEAD
+from project.models import User, Posts,Blacklist
+=======
 from project.models import User, Posts, Blacklist
+>>>>>>> 8ecfe1fdd904c61565d7b176b8ce94bf2ea48e30
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
@@ -122,6 +126,7 @@ def publish():
 			#type_of_post = Output
 			#posts.type_of_post = type_of_post
 			#db.session.add(posts)
+
 			#db.session.commit()
 			#return redirect(url_for('account'))
 
@@ -135,12 +140,17 @@ def publish():
 	return render_template("publish.html", title='Publish', form=form, user = user)
 
 
-@app.route("/viewuser/<user_id>", methods = ['GET', 'POST'])
-def user2_account(org_id):
+@app.route("/view")
+def view():
+	return render_template("view.html",title = 'View Custom News')
 
-	user = User.query.filter_by(id = org_id).first()
-	return render_template('viewUserAccount.html', title='ViewUser', user=user)
+@app.route("/view_list")
+def view_list():
+	return render_template("view_list.html",title = 'View News')
 
+@app.route("/viewNews/<news_id>")
+def viewNews():
+	return render_template('viewNews.html', title='News')
 
 
 @app.route("/logout")
@@ -155,7 +165,3 @@ def logout():
 @app.route("/payTrumped")
 def payTrumped():
 	return render_template('payTrumped.html', title='Payment')
-
-@app.route("/viewNews")
-def viewNews():
-	return render_template('viewNews.html', title='News')
