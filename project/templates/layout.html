@@ -37,7 +37,7 @@
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
-                <a class="hoverable nav-item nav-link" href="{{ url_for('publish') }}"><span class = 'pink-text darken-4'><b>Publish</b></a><span>
+                <a class="hoverable nav-item nav-link" href="{{ url_for('payTrumped') }}"><span class = 'pink-text darken-4'><b>Publish</b></a><span>
                 <a class="hoverable nav-item nav-link" href="#"><span class = 'pink-text darken-4'><b>menu2</b></a><span>
                 {% if current_user.is_authenticated %}
                   <a class="hoverable nav-item nav-link" href="{{ url_for('account') }}"><span class = 'pink-text darken-4'><b>Account</b></a><span>

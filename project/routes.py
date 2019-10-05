@@ -13,7 +13,7 @@ from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from project import app, db
 from project.forms import UserForm, LoginForm, UpdateDetails,PublishForm
-from project.models import User, Posts,Black
+from project.models import User, Posts, Blacklist
 from PIL import Image
 
 ### ESSENTIAL ROUTES ###
@@ -111,7 +111,7 @@ def publish():
 		db.session.add(posts)
 		db.session.commit()
 		print(posts)
-		
+
 		##### ML CODE RUNS HERE
 
 		## Uncomment this part
@@ -155,3 +155,7 @@ def logout():
 @app.route("/payTrumped")
 def payTrumped():
 	return render_template('payTrumped.html', title='Payment')
+
+@app.route("/viewNews")
+def viewNews():
+	return render_template('viewNews.html', title='News')
