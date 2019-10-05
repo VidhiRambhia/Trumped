@@ -12,7 +12,7 @@ from flask_datepicker import datepicker
 from sqlalchemy import or_, and_
 from sqlalchemy.orm import Session
 from project import app, db
-from project.forms import UserForm, LoginForm, UpdateDetails
+from project.forms import UserForm, LoginForm, UpdateDetails,PublishForm
 from project.models import User, Posts
 from PIL import Image
 
@@ -100,12 +100,18 @@ def account():
 
 	return render_template("account.html", title='Account', form=updateForm, user=user)
 
+@app.route("/publish",methods = ['GET','POST'])
+@login_required
+def publish():
+	publishForm = PublishForm()
+
 
 @app.route("/viewuser/<user_id>", methods = ['GET', 'POST'])
 def user2_account(org_id):
 
 	user = User.query.filter_by(id = org_id).first()
 	return render_template('viewUserAccount.html', title='ViewUser', user=user)
+
 
 
 @app.route("/logout")
