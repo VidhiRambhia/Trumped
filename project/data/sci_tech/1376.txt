@@ -1,0 +1,7 @@
+a day in the life of nytimes.com
+two data visualizations show where and when readers came to the new york times's web site on june 25, 2009, the day that michael jackson died.
+http://feeds.nytimes.com/click.phdo?i=8071a1e7ed74f0d07051f2f8686b8848
+17178
+17 Dec 2009 17:57:52
+nyt
+sci_tech

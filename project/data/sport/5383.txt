@@ -1,0 +1,7 @@
+fivethirtyeight: how we made our n.c.a.a. picks
+the goal is to have a system that makes good statistical sense and also makes decent basketball sense, as opposed to identifying a bunch of spurious correlations.
+http://feeds1.nytimes.com/~r/nyt/rss/sports/~3/ig2ug8wohv8/
+23261
+14 Mar 2011 19:09:57
+nyt
+sport

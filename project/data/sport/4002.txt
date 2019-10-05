@@ -1,0 +1,7 @@
+jeter may benefit from rest
+given derek jeter's age and the severity of his slump, what are the prospects that he can pull out of it?
+http://feeds1.nytimes.com/~r/nyt/rss/sports/~3/hcelypu12zk/
+17237
+15 Apr 2011 06:32:31
+nyt
+sport

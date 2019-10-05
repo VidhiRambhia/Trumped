@@ -1,0 +1,7 @@
+do@ tries to speed up mobile search
+do@ seeks to move mobile search results from links to apps.
+http://feeds.nytimes.com/click.phdo?i=4c41a275339588f0e5dce638cf596b44
+34838
+23 May 2011 23:30:02
+nyt
+sci_tech

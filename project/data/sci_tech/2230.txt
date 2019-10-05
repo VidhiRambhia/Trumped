@@ -1,0 +1,7 @@
+android@home lets you control lights, appliances
+google's android@home framework is a set of protocols for controlling  home appliances through any android device.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/xjwtwllyp2s/1
+27216
+10 May 2011 23:41:00
+ut
+sci_tech

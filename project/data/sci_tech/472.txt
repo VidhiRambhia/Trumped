@@ -1,0 +1,7 @@
+concerns over iphone tracking data
+a british newspaper reports that the iphone stores location data of everywhere it's been.
+http://feeds.nytimes.com/click.phdo?i=09d093b59079d4323423eb6c503023c4
+5573
+20 Apr 2011 19:07:14
+nyt
+sci_tech

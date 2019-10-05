@@ -1,0 +1,7 @@
+app smart extra: a weather app that works
+after a steady rain of mediocre weather apps, myweather - available for adroid and ios devices - is a welcome burst of sunshine.
+http://feeds.nytimes.com/click.phdo?i=475c4516d81e31beb4f7f3991cfbf27d
+34106
+23 May 2011 18:17:25
+nyt
+sci_tech

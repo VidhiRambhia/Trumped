@@ -1,0 +1,7 @@
+q&a: automatically saving office files (and sanity)
+microsoft office's autorecover function can save an open file at regular intervals.
+http://feeds.nytimes.com/click.phdo?i=b35d57c739e1e9601eed7c1df06fe5e7
+29659
+01 Jun 2011 18:15:12
+nyt
+sci_tech

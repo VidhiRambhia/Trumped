@@ -1,0 +1,7 @@
+the times and bit.ly roll out 'nyti.ms' short links
+the new york times introduced twitter-friendly links starting with "nyti.ms" and powered by bit.ly.
+http://feeds.nytimes.com/click.phdo?i=642cb2aee6a56ad03d36152f63ca1558
+32757
+17 Dec 2009 15:54:52
+nyt
+sci_tech

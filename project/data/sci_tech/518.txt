@@ -1,0 +1,7 @@
+tuneup's deduper finds duplicate tracks in itunes
+by analyzing the waveforms of each track, the add-on can sequester exact duplicates while recognizing that a live version is different.
+http://feeds.nytimes.com/click.phdo?i=dcae1ee053af3944c92016ec078ad27b
+6062
+01 Jun 2011 18:21:38
+nyt
+sci_tech

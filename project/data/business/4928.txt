@@ -1,0 +1,7 @@
+consumer agency to post a database of unsafe products
+the consumer product safety commission will list products that can be dangerous and accept information from the public.
+http://feeds.nytimes.com/click.phdo?i=74e97de7edfce227c21097f228a8f97a
+32180
+11 Mar 2011 08:23:02
+nyt
+business
