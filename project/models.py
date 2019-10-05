@@ -1,4 +1,3 @@
-
 from flask_login import UserMixin
 from project import login_manager, db
 
