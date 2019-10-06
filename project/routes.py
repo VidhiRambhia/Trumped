@@ -180,7 +180,7 @@ def publish():
 			post.type_of_post = type_of_post
 			db.session.add(post)
 			db.session.commit()
-			return redirect(url_for('account'))
+			return render_template("refund.html", title='Authenticity verified!')
 
 		else:
 			blacklisted_user = Blacklist(email = user.email,user_id = user.id)
@@ -194,25 +194,18 @@ def publish():
 	return render_template("publish.html", title='Publish', form=form, user = user)
 
 
-@app.route("/viewuser/<user_id>", methods = ['GET', 'POST'])
-def user2_account(org_id):
-
-	user = User.query.filter_by(id = org_id).first()
-	return render_template('viewUserAccount.html', title='ViewUser', user=user)
-
-
 @app.route("/view")
 def view():
 	return render_template("view.html",title = 'View Custom News')
 
 
-@app.route("/viewList/<type>")
-def viewList(type):
-	newsList = Posts.query.filter_by(type_of_post=type).all()
+@app.route("/viewList/<type_of_post>")
+def viewList(type_of_post):
+	newsList = Posts.query.filter_by(type_of_post=type_of_post).all()
 	return render_template("viewList.html",title = 'View News', newsList = newsList)
 
 
-@app.route("/viewNews/<id>")
-def viewNews(id):
-	newsArticle = Posts.query.filter_by(id=id).first()
+@app.route("/viewNews/<article_id>")
+def viewNews(article_id):
+	newsArticle = Posts.query.filter_by(id=article_id).first()
 	return render_template('viewNews.html', title='News', newsArticle=newsArticle)
