@@ -1,5 +1,7 @@
 .dim
 {
+<<<<<<< HEAD
+=======
     width: 80vw;
     display: block;
     top:0;
@@ -10,6 +12,7 @@
 
 .dimCat
 {
+>>>>>>> c04b94c1ddbdffe91ab0a281fa6c2c43dff4c220
     width: 65vw;
     display: block;
     top:0;
