@@ -3,11 +3,11 @@
 <hr>
       <div class="row valign wrapper">
         <div class="col s4">
-          <h3 class="account-heading black-text"><b>Welcome, </b>{{ current_user.name }}<br>
+          <h3 class="account-heading amber-text"><b>Welcome, </b>{{ current_user.name }}<br>
         </div>
       </div>
 
-    <div class = "dim card amber accent-2 hoverable col s12">
+    <div class = "dim card amber lighten-3 hoverable col s12">
         <form method="POST" action="/account" enctype="multipart/form-data">
             {{ form.hidden_tag() }}
             <fieldset class="form-group">
@@ -40,14 +40,11 @@
                     {% endif %}
                 </div>
 
-                <hr>
-
-                <hr>
-
             </fieldset>
             <div class="form-group valign center-align">
                 <b> {{ form.submit(class="button-border hoverable waves-effect waves-light btn-large brown darken-1 white-text") }} </b>
             </div>
+            <br>
         </form>
     </div>
     </div>

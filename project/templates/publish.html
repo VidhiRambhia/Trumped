@@ -1,17 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
 <hr>
-      <div class="row valign wrapper">
-        <div class="col s4">
-          <h3 class="account-heading black-text"><b>Welcome, </b>{{ user.name }}<br>
-        </div>
-      </div>
 
     <div class = "dim card amber accent-2 hoverable col s12">
         <form method="POST" action="/publish" enctype="multipart/form-data">
             {{ form.hidden_tag() }}
             <fieldset class="form-group">
-                <h4 class="brown-text-text darken-1"><b>Title of your article </b></h4>
+                <h5 class="brown-text-text darken-1"><b>Title</b> of your article </h5>
                 <div class="form-group">
                     {% if form.title.errors %}
                         {{ form.title(class="form-control form-control-lg is-invalid") }}
@@ -25,8 +20,10 @@
                     {% endif %}
                 </div>
 
+                <br>
+
                 <div class="form-group">
-                    <h4 class = "brown-text darken-1">By </h4>
+                    <h5 class = "brown-text-text darken-1">Author/Reporter </h5>
                     {% if form.author.errors %}
                         {{ form.author(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
@@ -39,8 +36,10 @@
                     {% endif %}
                 </div>
 
+                <br>
+
                 <div class="form-group">
-                    <h4 class = "brown-text darken-1">Article</h4>
+                    <h5 class = "brown-text-text darken-1">Article <b>content</b></h5>
                     {% if form.text.errors %}
                         {{ form.text(class="form-control form-control-lg is-invalid") }}
                         <div class="invalid-feedback">
@@ -52,10 +51,6 @@
                         {{ form.text(class="form-control form-control-lg") }}
                     {% endif %}
                 </div>
-
-                <hr>
-
-                <hr>
 
             </fieldset>
             <div class="form-group valign center-align">

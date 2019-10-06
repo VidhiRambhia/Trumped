@@ -5,11 +5,11 @@
 		<form method="POST" action="/userRegister" enctype="multipart/form-data">
 			{{ form.hidden_tag() }}
 			<fieldset class="form-group">
-				<h3 class="brown-text darken-2"><b>User</b></h3>
+				<h3 class="amber-text accent-2"><b>User</b></h3>
 				<hr>
 
 				<div class="form-group">
-					<h5> {{ form.name.label(class="black-text") }} </h5>
+					<h5> {{ form.name.label(class="blue-grey-text lighten-1") }} </h5>
 					{% if form.name.errors %}
 						{{ form.name(class="form-control form-control-lg is-invalid") }}
 						<div class="invalid-feedback">
@@ -24,7 +24,7 @@
 
 
 				<div class="form-group white-text">
-					<h5> {{ form.email.label(class="black-text form-control-label") }} </h5>
+					<h5> {{ form.email.label(class="blue-grey-text lighten-1 form-control-label") }} </h5>
 					{% if form.email.errors %}
 						{{ form.email(class="form-control form-control-lg is-invalid") }}
 						<div class="invalid-feedback">
@@ -39,7 +39,7 @@
 
 
 				<div class="form-group">
-					<h5> {{ form.password.label(class="black-text form-control-label") }} </h5>
+					<h5> {{ form.password.label(class="blue-grey-text lighten-1 form-control-label") }} </h5>
 					{% if form.password.errors %}
 						{{ form.password(class="form-control form-control-lg is-invalid") }}
 						<div class="invalid-feedback">
