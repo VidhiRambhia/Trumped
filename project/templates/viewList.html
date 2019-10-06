@@ -1,24 +1,108 @@
-{% extends "layout.html" %}
-{% block content %}
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div>
-	<div class = "col s12">
-		{% if newsList != []: %}
-			{% for news in newsList %}
-			{
-				<h6> {{ news.id }} </h6><br>
-				<b>{{ news.title }} </b><br>
-				{{ news.author }} <br>
-				<hr>
-			}
-			{% endfor %}
-		{% else %}
-			<h4> No matching news articles found :( </h4>
-		{% endif %}
-	</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	
+    <link rel="shortcut icon" href="static/logo.ico">
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <!--Import materialize.css-->
 
-</div>
+    <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css" media="screen,projection"/>
 
-{% endblock content %}
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title> Trumped </title>
+    {% endif %}
+</head>
+<body class = "content">
+    <header class="site-header">
+      <nav class="transparent navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="/"><h5 class="grey-text lighten-3">TRUMPED</h5></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="topnav collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="hoverable nav-item nav-link" href="{{ url_for('home') }}"><span class = "yellow-text darken-4"><b>Home</b></a><span>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+                <a class="hoverable nav-item nav-link" href="{{ url_for('payTrumped') }}"><span class = 'yellow-text darken-4'><b>Publish</b></a><span>
+                <a class="hoverable nav-item nav-link" href="{{ url_for('view', type='world') }}" class="button-border hoverable waves-effect waves-light btn-large amber accent-2 black-text"><span class = 'yellow-text darken-4'><b>Read</b></a><span>
+                {% if current_user.is_authenticated %}
+                  <a class="hoverable nav-item nav-link" href="{{ url_for('account') }}"><span class = 'yellow-text darken-4'><b>Account</b></a><span>
+                  <a class="hoverable nav-item nav-link" href="{{ url_for('logout') }}"><span class = 'yellow-text darken-4'><b>Logout</b></a><span>
+                {% else %}
+                  <a class="hoverable nav-item nav-link" href="{{ url_for('userRegister') }}"><span class = 'yellow-text darken-4'><b>Register</b></a><span>
+                  <a class="hoverable nav-item nav-link" href="{{ url_for('login') }}"><span class = 'yellow-text darken-4'><b>Login</b></a><span>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+              {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">
+                  {{ message }}
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endwith %}
+          <div class="dim row">
+            <div class = "col s9">
+              {% if newsList != []: %}
+                {% for news in newsList: %}
+                {
+                  <div class="hoverable blue-grey-lighten-2">
+                    <h6> {{ news.id }} </h6><br>
+                    <b>{{ news.title }} </b><br>
+                    {{ news.author }} <br>
+                    <hr>
+                  </div>
+                }
+                {% endfor %}
+              {% else %}
+                <h4 class="red-text darken-4"> No matching news articles found :( </h4>
+              {% endif %}
+            </div>
+
+            <div class = "row col s3">
+              <a href="{{ url_for('viewList', type='world') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>World</b></a>
+              <a href="{{ url_for('viewList', type='business') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Business</b></a>
+              <a href="{{ url_for('viewList', type='health') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Health</b></a>
+              <a href="{{ url_for('viewList', type='sci_tech') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Sci-Tech</b></a>
+              <a href="{{ url_for('viewList', type='us') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>U.S.A.</b></a>
+              <a href="{{ url_for('viewList', type='sports') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Sports</b></a>
+              <a href="{{ url_for('viewList', type='entertainment') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Entertainment</b></a>
+              <a href="#" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Other News</b></a>
+            </div>
+        </div>
+      </div>
+
+    <div class = "footer">
+    <hr>
+    <p class = "blue-grey-text lighten-2">© October 2019 <b>NSV, KJHack</b></p>
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

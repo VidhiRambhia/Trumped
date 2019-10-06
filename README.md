@@ -3,35 +3,65 @@ CONTENTS OF THIS FILE
 
  * Introduction
  * Techstack
+ * Setup
+ * Repository Structure
  * Extension
  * Maintainers
 
 INTRODUCTION
 ------------
 
-*NSV* is a project. The functionalities in NSV include:<br>
-  * **nothing:**<br> (as of now) <br><br>
-  * **x2:** y2 <br><br>
-  * **x3:**<br> y3 <br><br>
+***Trumped**: News served by ML, verified by Blockchain* <br> 
+// insert flowchart etc.
+<br>
+*Trumped* has three parts of the working project:<br>
+  * **Machine Learning model:**<br> For classfying a given article as fake or real and blacklisting the publishers accordingly <br><br>
+  * **Smart Contracts:** Users pay ether to authentic news Publishers; each Publisher is asked for a security deposit before publishing their news article <br><br>
+  * **Website:** Where the Publishers publish their news for the Users to see <br><br>
 
 TECHSTACK
 ---------
 
 `Flask: Python 3.6`, <br>
-`SQLAlchemy`
+`SQLAlchemy`, <br>
+`Solidity (version 0.5.11)`, <br>
+
+SETUP
+-----
+
+### Prerequisites
+**Modules:**<br>
+Clone this repository.<br>
+In `Trumped/`, do:
+` pip install -r dependencies.txt` on terminal.
+
+<br><br>
+
+**Metamask:** <br>
+For the working of this repository, we need at least 
+
+
+
+
+
+
+REPOSITORY STRUCTURE
+--------------------
+
+
 
 EXTENSION
 ---------
 
-* **DialogFlow: webhook and export to Third Party Assistants:** The current project is configured with Dialogflow and its `Flask` module. The webhook route exists in `routes.py`. An agent can be created to identify intends and trigger respective actions, and can be exported to Google Assistant, Facebook messenger, etc. <br><br>
-
+* **React**  <br><br>
+* ** ** <br><br>
 * **x4:** y4
 
 
  MAINTAINERS
  -----------
 
-This project has been developed in  *KJSCE Hack 2019*, at K.J. Somaiya College of Engineering, Vidyavihar, India in the time period of one day.
+This project has been developed in  *KJSCE Hack 2019*, at K.J. Somaiya College of Engineering, Vidyavihar, India in the time period of 24 hours.
 The contributors to the project and this repository are :
 
 Ms. Nidhee Kamble (nidheekamble)<br>

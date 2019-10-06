@@ -192,10 +192,11 @@ def view():
 
 @app.route("/viewList/<type>")
 def viewList(type):
-	newsList = Posts.query.filter_by(type_of_post=type).all
+	newsList = Posts.query.filter_by(type_of_post=type).all()
 	return render_template("viewList.html",title = 'View News', newsList = newsList)
 
 
-@app.route("/viewNews")
-def viewNews():
-	return render_template('viewNews.html', title='News')
+@app.route("/viewNews/<id>")
+def viewNews(id):
+	newsArticle = Posts.query.filter_by(id=id).first()
+	return render_template('viewNews.html', title='News', newsArticle=newsArticle)
