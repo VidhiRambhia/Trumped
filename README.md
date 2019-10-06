@@ -12,7 +12,7 @@ INTRODUCTION
 ------------
 
 ***Trumped**: News served by ML, verified by Blockchain* <br> 
-<img src="https://github.com/VidhiRambhia/Trumped/tree/master/project/static/overview.png" width=1000> <hr>
+<img src="https://github.com/VidhiRambhia/Trumped/blob/master/project/static/overview.png" width=1000> <hr>
 <br>
 *Trumped* has three parts of the working project:<br>
   * **Machine Learning model:**<br> For classfying a given article as fake or real and blacklisting the publishers accordingly <br><br>
