@@ -8,7 +8,7 @@ CONTENTS OF THIS FILE
  * Extension
  * Maintainers
 
-<img src="https://github.com/VidhiRambhia/Trumped/blob/master/finalDemo.mp4" width=1000>
+<img src="https://github.com/VidhiRambhia/Trumped/blob/master/demo.gif" width=1000>
 Demo video<hr>
 <br>
 
