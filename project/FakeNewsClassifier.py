@@ -6,10 +6,10 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import pickle
-#import FakeNewsClassifier.
+
 #1: unreliable
 #0: reliable
-'''
+
 train=pd.read_csv('train_fake.csv')
 test=pd.read_csv('test_fake.csv')
 test.info()
@@ -55,7 +55,7 @@ logreg.fit(X_train, y_train)
 pickle.dump(logreg, open("logreg_fake.pkl", "wb"))
 
 
-'''
+
 
 category_list = ["sport", "world", "us", "business", "health", "entertainment", "sci_tech"]
 
