@@ -25,6 +25,11 @@ TECHSTACK
 `Flask: Python 3.6`, <br>
 `SQLAlchemy`, <br>
 `Solidity (version 0.5.11)`, <br>
+`Python-Flask (version 1.1.1),` <br>
+`Pandas (version 0.25.1),` <br>
+`Numpy (version 1.17.2),` <br>
+`Sklearn` <br>
+
 
 SETUP
 -----
@@ -47,7 +52,27 @@ For the working of this repository, we need at least
 
 REPOSITORY STRUCTURE
 --------------------
-
+* **project**
+  * contracts
+  * data
+  * static
+  * templates
+  * FakeNewsClassifier.py
+  * NSV.db
+  * NewsTypeClassifier.py
+  * _init_.py
+  * forms.py
+  * models.py
+  * news  (data set for training News Category Identifier)
+  * routes.py
+  * test_fake.csv (data set for testing Fakes News Classifier)
+  * train_fake.csv (data set for testing Fakes News Classfier)
+* **.gitignore**
+* **createDb.py**
+* **dependancies.txt**
+* **run.py**
+* **LICENSE**
+* **README.md**
 
 
 EXTENSION
