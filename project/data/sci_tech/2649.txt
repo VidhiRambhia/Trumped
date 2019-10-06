@@ -1,7 +1,7 @@
-linkedin hits 100 million members worldwide
-linkedin, the online social network for professionals and job seekers, now has 100 million members worldwide and more than half are from outside the united states.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/m_s3b_wt4q4/us-linkedin-idustre72l3bf20110322
-32285
-22 Mar 2011 14:31:42
-reuters
+numberplay: mission shortest path
+finding out the shortest path between two points, in the presence of obstacles.
+http://feeds.nytimes.com/click.phdo?i=2c0f89d1b1cfc2ffa9e9e374730c98c0
+32253
+10 May 2011 00:03:28
+nyt
 sci_tech

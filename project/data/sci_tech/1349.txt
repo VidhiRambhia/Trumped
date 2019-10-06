@@ -1,7 +1,7 @@
-apple issues fix to combat malware
-apple issued a security update on tuesday to address persistent attacks targeting mac users with fake antivirus software.
-http://feeds.nytimes.com/click.phdo?i=6b25ceb751bb5e87f0be2d9b64f0fe14
-16814
-02 Jun 2011 20:28:02
-nyt
+saved by smartphones? sites stay up despite spike
+news of osama bin laden's death caused traffic to increase at popular u.s. news sites. yet outages and slowdowns were less severe than during ...
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/7j27xulekym/2011-05-03-smartphones-saved-websites_n.htm
+16813
+03 May 2011 15:56:20
+ut
 sci_tech

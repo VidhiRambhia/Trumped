@@ -1,7 +1,7 @@
-google says it collects location data on phones for location services
-google said it collects location information from android phones, but only anonymously and with user consent.
-http://feeds.nytimes.com/click.phdo?i=4cefc925d6935e4f93a4a23bdf833471
-22369
-23 Apr 2011 01:55:29
-nyt
+not just oil: methane gas may cause 'dead zones' in gulf
+oceanographers say methane 10,000 to 100,000 times higher than normal near the deepwater horizon oil spill are depleting oxygen in the water.
+http://rssfeeds.usatoday.com/~r/usatodaycomscienceandspace-topstories/~3/ckcxtr-sya8/2010-06-23-hnb23_st_n.htm
+22347
+23 Jun 2010 01:36:48
+ut
 sci_tech

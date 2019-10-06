@@ -1,7 +1,7 @@
-president obama talks tech, budget, deficit at facebook
-president barack obama expanded on his fiscal message wednesday at a virtual town hall meeting at facebook's headquarters here.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/xwamx-vrphw/1
-27219
-20 Apr 2011 23:39:00
+android@home lets you control lights, appliances
+google's android@home framework is a set of protocols for controlling  home appliances through any android device.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/xjwtwllyp2s/1
+27216
+10 May 2011 23:41:00
 ut
 sci_tech

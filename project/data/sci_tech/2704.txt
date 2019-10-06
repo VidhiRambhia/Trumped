@@ -1,7 +1,7 @@
-google launches chrome pcs, takes on microsoft
-laptop computers using google's chrome operating system will go on sale in june, as the world's no. 1 internet search engine challenges microsoft corp and apple on their home turf.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/rzyq3tm1gv4/us-google-idustre74909e20110511
-33052
-11 May 2011 23:33:15
-reuters
+a tool to harvest iphone location data
+the new york times company's research and development lab released a free web-based tool that creates an research database of anonymized location data from iphones and ipads.
+http://feeds.nytimes.com/click.phdo?i=319e819e78ec8b41f34fd9cab60f01ed
+33028
+05 May 2011 18:53:27
+nyt
 sci_tech

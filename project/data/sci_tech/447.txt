@@ -1,7 +1,7 @@
-bofa, jpmorgan, wells form jv for online banking services
-bank of america corp, jpmorgan chase &amp; co and wells fargo &amp; co have teamed up to create a joint venture for online banking services.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/hzc1tm72uqo/us-online-banking-idustre74o3xr20110525
-5256
-25 May 2011 15:20:11
-reuters
+blackberry's bridge to nowhere
+at&t users are running into problems using the playbook's bridge app to read e-mail and contacts stored on their blackberry smartphones.
+http://feeds.nytimes.com/click.phdo?i=3b6b12b875f1908040c30034d9cf2b0c
+5247
+20 Apr 2011 00:29:44
+nyt
 sci_tech

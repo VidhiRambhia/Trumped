@@ -1,7 +1,7 @@
-a closer look at travel newsletters that deliver deals to your inbox
-a host of publishers send e-mail newsletters full of deals to get you off the couch and traveling.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/w_oxbpf_4ds/1
-25988
-18 Apr 2011 11:00:00
-ut
+japanese electronics sector faces extended supply woes
+japanese electronics manufacturers warned production would be hobbled by further supply and distribution problems as companies struggle with power blackouts after the disaster in japan.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/gwf_svkqdsu/us-japan-quake-companies-idustre72f4nd20110316
+25981
+16 Mar 2011 14:55:12
+reuters
 sci_tech

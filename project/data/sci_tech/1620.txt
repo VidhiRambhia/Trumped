@@ -1,7 +1,7 @@
-amazon opens app store for android devices
-amazon.com has opened an online store to sell software for android tablets and smarthphones.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/vd_rg3rccy4/2011-03-22-amazon-app-store.htm
-19972
-22 Mar 2011 16:30:14
-ut
+house rejects fcc's 'open' internet rules
+the house of representatives voted on friday to reject internet "neutrality" rules that were adopted last year to keep big internet service providers from blocking certain traffic
+http://feeds.reuters.com/~r/reuters/technologynews/~3/xbo98j2ope8/us-congress-internet-idustre7376ur20110408
+19921
+08 Apr 2011 23:50:07
+reuters
 sci_tech

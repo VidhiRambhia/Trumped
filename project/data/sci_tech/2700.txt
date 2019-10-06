@@ -1,7 +1,7 @@
-which apps are threatened by apple's upgrades?
-apple's new operating system includes a variety of features that may threaten standalone applications and services that perform a similar function.
-http://feeds.nytimes.com/click.phdo?i=7bae30e07726ba292f3adf6d47e86947
-33000
-07 Jun 2011 00:22:58
-nyt
+china helps unravel new e.coli for embattled europe
+for three long weeks europe was gripped with fear battling a mysterious e. coli epidemic, and it wasn't until late this week that china's genomics institute nearly 7,000 km away finally put its finger on the culprit.
+http://feeds.reuters.com/~r/reuters/sciencenews/~3/7pngx0itn4m/us-ecoli-china-idustre75224620110603
+32997
+03 Jun 2011 15:23:09
+reuters
 sci_tech

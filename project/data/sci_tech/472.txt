@@ -1,7 +1,7 @@
-concerns over iphone tracking data
-a british newspaper reports that the iphone stores location data of everywhere it's been.
-http://feeds.nytimes.com/click.phdo?i=09d093b59079d4323423eb6c503023c4
-5573
-20 Apr 2011 19:07:14
-nyt
+wall street traders mine tweets to gain a trading edge
+traders are mining twitter tweets as a way to measure the mood of investors to gain a trading edge.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/yiozzb0jylc/2011-05-03-wall-street-traders-mine-tweets_n.htm
+5555
+04 May 2011 04:10:29
+ut
 sci_tech

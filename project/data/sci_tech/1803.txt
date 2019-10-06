@@ -1,7 +1,7 @@
-apple reveals icloud service and appearance of steve jobs
-widely anticipated launch of apple's icloud storage service will be unveiled at its wwdc event next week.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/dffi3yqnbte/2011-05-31-apple-icloud-cloud-computing_n.htm
-22070
-01 Jun 2011 14:53:01
-ut
+microsoft latest security risk: "cookiejacking"
+a computer security researcher has found a flaw in microsoft corp's widely used internet explorer browser that he said could let hackers steal credentials to access facebook, twitter and other websites.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/2tuuk0llrpo/us-microsoft-security-idustre74o86f20110525
+22054
+26 May 2011 00:16:43
+reuters
 sci_tech

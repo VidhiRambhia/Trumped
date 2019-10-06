@@ -1,7 +1,7 @@
-the right's environmental wish list
-twin measures introduced by senator david vitter and representative rob bishop offer a 12-step program for remaking the environmental policy landscape.
-http://feeds.nytimes.com/click.phdo?i=9f50eeddaf1a18737246834d1db5370e
-8787
-01 Jun 2011 20:07:30
-nyt
+rsa offers to replace securids after lockheed hacking
+data storage firm emc ltd has offered to replace millions of potentially compromised "securid" electronic keys after hackers used data stolen from its rsa security division to break into lockheed martin's network.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/s8usvxkvc0e/us-emc-lockheed-idustre7560ea20110608
+8778
+08 Jun 2011 06:46:43
+reuters
 sci_tech

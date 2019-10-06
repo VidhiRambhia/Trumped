@@ -1,7 +1,7 @@
-ask the reporter a question
-justin gillis, an environmental science reporter for the times, is taking reader questions on climate change and the world's future food security.
-http://feeds.nytimes.com/click.phdo?i=4db6917951c132fe7e5103f7d2729e7a
-27756
-06 Jun 2011 05:32:07
-nyt
+north korea hacker threat grows as cyber unit grows: defector
+secretive north korea is scouring its universities for computer prodigies to send overseas for training as part of a plan to expand its cyber warfare unit, a defector said on wednesday, underscoring the increased risk of cyber attacks.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/djktpdtzwqu/us-korea-north-hackers-idustre7501u420110601
+27733
+01 Jun 2011 14:35:54
+reuters
 sci_tech

@@ -1,7 +1,7 @@
-oracle to stop writing software for itanium processor
-oracle corp said late on tuesday it has decided to discontinue all software development on the intel itanium microprocessor after multiple conversations with intel senior management.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/rwp9tgrma_i/us-oracle-intel-idustre72m10020110323
-32849
-23 Mar 2011 19:10:49
-reuters
+house votes to repeal regs on internet access
+republicans said the fcc lacked the authority to promulgate the rules.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/yahaod7vam0/2011-04-08-house-vote-internet-rules.htm
+32807
+08 Apr 2011 22:35:53
+ut
 sci_tech

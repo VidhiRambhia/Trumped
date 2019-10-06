@@ -1,7 +1,7 @@
-a.m.d.'s profit bolstered by sales of chips for netbooks
-the results, coupled with better-than-expected results from intel, may be a positive sign for the computer industry.
-http://feeds.nytimes.com/click.phdo?i=313c24a5b060f26089249d821af60b56
-34826
-22 Apr 2011 06:35:56
-nyt
+google chrome 12 is now stable release
+stable release of google's web browser brings improvements in security, privacy and graphics capabilities.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/oyeu9mx3h3s/1
+34817
+08 Jun 2011 18:10:00
+ut
 sci_tech

@@ -1,7 +1,7 @@
-indian web rules risk curbing info flow: google
-holding internet platforms liable for third-party content would lead to self-censorship and reduce the free flow of information, google inc said on wednesday in reaction to india's new rules.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/3hiql2gyiio/us-google-india-idustre74a6kp20110511
-34147
-11 May 2011 20:53:44
-reuters
+the cloud threat to the software business
+cloud computing is a threat to the economics of the software business. corporate customers and the big software companies will determine just how big a threat it becomes.
+http://feeds.nytimes.com/click.phdo?i=c6c8d26417f8d27bed66e9124a0931c8
+34138
+15 Apr 2011 19:56:41
+nyt
 sci_tech

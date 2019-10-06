@@ -1,7 +1,7 @@
-a new app for the less-than chatty
-a new app from jawbone, makers of bluetooth earpieces, takes the two-way out of phone conversations.
-http://feeds.nytimes.com/click.phdo?i=cda8c3b027223a4fef6d405f58c51c83
-20200
-25 May 2011 12:42:34
-nyt
+uber app hails a town car for you
+uber offers people with iphones and android-based phones an app that connects them to limo drivers of black lincoln town cars.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/u3j2fqh-ljq/2011-03-08-uber-car-app_n.htm
+20190
+09 Mar 2011 02:22:59
+ut
 sci_tech

@@ -1,7 +1,7 @@
-report: apple, google collecting location data on users
-as apple faces scrutiny over the collection of location data from users of its iphones and ipads, the wall street journal reports that google ...
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/h6-iz6eu3_e/1
-3716
-22 Apr 2011 15:31:00
-ut
+high costs linked to gaps around air-conditioners
+a report estimates that poorly fitted air-conditioners cost buildings in new york city $130 million to $180 million a year in extra fuel consumption.
+http://feeds.nytimes.com/click.phdo?i=c6f7b20232b1b9271fc2f6f98a5cc2b8
+3701
+14 Apr 2011 21:08:17
+nyt
 sci_tech

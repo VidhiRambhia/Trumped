@@ -1,7 +1,7 @@
-exclusive: facebook investors look for exits
-a group of facebook shareholders is seeking to offload $1 billion worth of shares on the secondary market, a sale that would value the company at more than $70 billion, according to five sources with direct knowledge of the situation.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/uoocdanntao/us-facebook-shares-idustre73q8l720110428
-6371
-28 Apr 2011 15:23:22
-reuters
+study: web users worry about snooping businesses
+it's not big brother, but "big business" that internet users are more worried about.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/sbx3cv_dhlo/2011-06-03-survey-internet-use_n.htm
+6358
+03 Jun 2011 16:00:18
+ut
 sci_tech

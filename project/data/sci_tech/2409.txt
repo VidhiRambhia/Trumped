@@ -1,7 +1,7 @@
-google deflects pr firm's attack of gmail privacy
-burson-marsteller bungles whisper campaign to get news coverage blasting gmail over privacy concerns. effort shows urgency to profit from new ...
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/oylao2wvprm/2011-05-06-google_n.htm
-29435
-10 May 2011 20:14:55
-ut
+apple operating system affected by malware
+apple computer users were targeted by fake antivirus software that hopes to gain access to users' credit cards. apple said wednesday that it plans to issue a software update to remove the malware.
+http://feeds.nytimes.com/click.phdo?i=b08f0789c01b2e918a19414ffedb2a8c
+29422
+26 May 2011 05:17:22
+nyt
 sci_tech

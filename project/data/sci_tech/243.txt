@@ -1,7 +1,7 @@
-report: sony subpoenaed by n.y. attorney general over playstation breach
-new york's attorney general has issued a subpoena against sony seeking information on the data breaches that shut down the playstation network ...
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/owoob8c4kz4/1
-3040
-05 May 2011 17:30:00
-ut
+u.s. says sanctions possible in china copyright spat
+china said on friday it complied with "most measures at issue" in an international trade ruling made against its restrictions on copyright-intensive goods such as films, books and music.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/rdl191uoxf0/us-trade-china-copyright-idustre72o6ak20110325
+3032
+25 Mar 2011 23:47:07
+reuters
 sci_tech

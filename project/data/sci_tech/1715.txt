@@ -1,7 +1,7 @@
-a social network for making future plans
-whereberry, a web site that opens tuesday, is a social network for sharing what you want to do in the future.
-http://feeds.nytimes.com/click.phdo?i=238482e5a3a9aee6d7a160a7d2d108cc
-21065
-17 May 2011 13:00:53
-nyt
+nasa's humanoid robot unveiled on space station
+the first humanoid robot ever launched into space is finally free.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/ngtzhilafoe/2011-03-17-nasa-robot_n.htm
+21058
+17 Mar 2011 16:22:57
+ut
 sci_tech

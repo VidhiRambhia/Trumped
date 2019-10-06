@@ -1,7 +1,7 @@
-yandex says "better than google"
-internet search firm yandex declared itself "better than google" as it debuted on the nasdaq on tuesday, and signaled it has ambitions to expand beyond its russian heartland.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/qrm74vziwcc/us-yandex-interview-idustre74n5ai20110524
-20775
-24 May 2011 17:58:45
-reuters
+q-and-a: smartphone location tracking
+what you can do to protect location data, and the trade-offs that entails.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/qhlbrur0aya/2011-04-23-smartphone-tracking-q-and-a.htm
+20744
+24 Apr 2011 04:30:04
+ut
 sci_tech

@@ -1,7 +1,7 @@
-weather satellites on the chopping block
-satellites and other government-run instruments provide virtually all weather data used to make forecasts in the united states, including those on tv, radio and in newspapers. like all satellites, weather satellites wear out and have to be replaced regularly.
-http://feeds.nytimes.com/click.phdo?i=6572544d096115fdd88978a881279eab
-5130
-14 Apr 2011 20:53:05
-nyt
+nasa: japan quake shortened earth's day, shifted axis
+the 9.0 magnitude earthquake that ravaged japan also shortened earth's day by just over one-millionth of a second (1.8 microseconds to be exact), according to nasa. it also shifted the earth's axis by about 6.5 inches.
+http://rssfeeds.usatoday.com/~r/tp-sciencefair/~3/5ekkbwgirf4/1
+5128
+15 Mar 2011 20:55:00
+ut
 sci_tech

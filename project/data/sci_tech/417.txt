@@ -1,7 +1,7 @@
-one fish, two fish, false-ish, true-ish
-a new study indicates that current studies of collapsed and over-exploited fisheries overstate the problems.
-http://feeds.nytimes.com/click.phdo?i=289be3a5097a22eb9812398220eb41bd
-5001
-02 May 2011 22:38:55
-nyt
+open text poised to grow due to solid pipeline: analysts
+canada's largest software company open text corp has strong prospects for growth partly due to its solid pipeline, analysts said, and raised their price target on the stock, a day after it posted a jump in quarterly profit.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/v59gyw7imwq/us-opentext-research-idustre73r4fm20110428
+4968
+28 Apr 2011 16:30:26
+reuters
 sci_tech

@@ -1,7 +1,7 @@
-flash 10.2 arrives for android; brings flash to tablets
-flash player 10.2 for android marks the availability of flash for android 3.0.1 honeycomb, google's operating system for tablets.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/n7g-4tvbhqw/1
-18891
-19 Mar 2011 16:00:00
-ut
+russian spy agency complains about gmail, skype
+russia's domestic security service called for access to encrypted communication providers like gmail, hotmail and skype on friday, saying the uncontrolled use of such services could threaten national security.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/p6hdcfolof4/us-russia-internet-idustre7374c720110408
+18861
+08 Apr 2011 20:52:13
+reuters
 sci_tech

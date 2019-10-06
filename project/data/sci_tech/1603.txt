@@ -1,7 +1,7 @@
-facebook sharing sends readers to big news sites
-facebook is influencing what news gets read online as people use the internet's most popular hangout to share and recommend content.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/vc5zchylbtk/2011-05-09-facebook-news-sharing_n.htm
-19814
-09 May 2011 14:56:28
-ut
+numberplay: tracking the ball
+sporting contests sometimes turn on a math problem that referees must solve instantly with only their eyes and brains: projecting where a ball's interrupted flight would have taken it.
+http://feeds.nytimes.com/click.phdo?i=756eb179ca2ddc15cf4fbf68a52e3beb
+19813
+11 Apr 2011 22:18:39
+nyt
 sci_tech

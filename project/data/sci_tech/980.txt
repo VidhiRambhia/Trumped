@@ -1,7 +1,7 @@
-netflix cuts data use on canada online service
-online video rental company netflix inc has tweaked its canadian streaming service to cut down on the amount of data it uses in a country where internet usage is typically metered and capped.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/5i3ia24fe5y/us-netflix-canada-idustre72s3bt20110329
-11946
-29 Mar 2011 21:59:04
+new rules to let europe web users turn off cookies
+people surfing european websites will be able to turn off the cookies used to spy on their internet habits under rules hammered out by the region's online advertisers, an industry body said on thursday.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/umfdzrx7-oo/us-eu-web-advertising-idustre73d78v20110414
+11944
+14 Apr 2011 21:31:50
 reuters
 sci_tech

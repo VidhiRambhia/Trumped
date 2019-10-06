@@ -1,7 +1,7 @@
-hackers attack another sony network and post data
-hackers broke into sony corp's computer networks and accessed the information of more than 1 million customers to show the vulnerability of the electronic giant's systems, the latest of several security breaches undermining confidence in the company.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/hjd2uumnvli/us-sony-idustre74q1ec20110603
-3774
-03 Jun 2011 13:18:29
+hackers attack another sony network, post data
+a hacker group has engineered yet another attack on the computer networks of sony corp, a setback to the japanese company's efforts to move past a security crisis that erupted in april.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/w5lazvdo5xq/us-sony-idustre74q1ec20110602
+3772
+02 Jun 2011 23:43:26
 reuters
 sci_tech

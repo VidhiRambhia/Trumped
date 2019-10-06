@@ -1,7 +1,7 @@
-q & a: as the world turns
-shifts in the earth's axis, produced by earthquakes, are too small to affect the world's weather.
-http://feeds.nytimes.com/click.phdo?i=ec402179bcf417631e18198fd6f149cf
-24840
-26 Apr 2011 01:50:04
-nyt
+npd: video game sales get a boost in february
+sales of video game hardware in february propelled industry sales to a surprising improvement over last year, according to the npd group's monthly ...
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/ugspiwtus-e/1
+24839
+11 Mar 2011 00:31:00
+ut
 sci_tech

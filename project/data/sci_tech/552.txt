@@ -1,7 +1,7 @@
-q&a: fighting a clickjack attack
-how to avoid links on facebook that are actually viruses.
-http://feeds.nytimes.com/click.phdo?i=87a3d3ff8480f4a946a8d47b275616d8
-6392
-11 May 2011 22:39:11
-nyt
+museums, visitors centers vie for shuttles' last stops
+twenty-one museums and science and visitor centers around the country are vying for one of nasa's three retiring spaceships.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/9g0zbtn65l4/2011-04-07-space-shuttles-museum.htm
+6389
+08 Apr 2011 04:30:37
+ut
 sci_tech

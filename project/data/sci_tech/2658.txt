@@ -1,7 +1,7 @@
-intel's ivy bridge chip technology may drive mobile push
-intel corp on wednesday took the wraps off next-generation technology that crams more transistors onto microchips, betting it will help the chipmaker catch up in the red-hot tablet and smartphone market.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/qzji_xrba88/us-intel-idustre7435mv20110504
-32346
-04 May 2011 22:23:52
+analysis: watch out arm, here comes intel
+intel's latest manufacturing breakthrough sends a clear warning to rival arm holdings not to get too complacent with its overwhelming lead in the red-hot mobile arena.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/myzy2lrxv1i/us-intel-idustre7435mv20110505
+32345
+06 May 2011 01:39:39
 reuters
 sci_tech

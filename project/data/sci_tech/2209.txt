@@ -1,7 +1,7 @@
-chicago news cooperative: pressure to improve water quality in chicago river
-the federal government and environmental groups have increased the pressure on chicago to stop discharging untreated sewage into the chicago river during storms.
-http://feeds.nytimes.com/click.phdo?i=4a42672b4dc584f8c84e9bd0be38faca
-26970
-20 May 2011 05:53:01
-nyt
+japan a robot power everywhere except at nuclear plant
+japan may build robots to play the violin, run marathons and preside over weddings, but it has not deployed any of the machines to help repair its crippled reactors.
+http://feeds.reuters.com/~r/reuters/sciencenews/~3/a1rmo3mnu8y/us-quake-japan-robots-idustre72g2ld20110317
+26927
+17 Mar 2011 12:23:12
+reuters
 sci_tech

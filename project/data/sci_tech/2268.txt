@@ -1,7 +1,7 @@
-q&a: pruning unwanted software from a new pc
-many new computers come with all sorts of trial software. here's how to get rid of it.
-http://feeds.nytimes.com/click.phdo?i=a617e058b2e00ca2e40231d34c7fdde0
-27658
-11 Apr 2011 12:11:41
-nyt
+mobile wallet roll out starts with small change
+virtual wallet technology that lets people pay for a coffee, newspaper or sandwich by swiping a cell phone at a checkout is finally set to start rolling out, executives told the reuters technology summit this week in paris.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/sn8sphrlxia/us-summit-mobile-wallet-idustre74j49q20110520
+27655
+20 May 2011 21:48:22
+reuters
 sci_tech

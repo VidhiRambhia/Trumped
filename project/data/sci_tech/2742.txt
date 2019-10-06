@@ -1,7 +1,7 @@
-exclusive: yahoo, alibaba reach deal over alipay: sources
-yahoo inc has resolved a dispute with alibaba group over the chinese company's transfer of its online payment system, alipay, to chief executive jack ma, two sources close to the matter said.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/t5j2rocubfm/us-yahoo-alipay-idustre74u65120110531
-33508
-01 Jun 2011 00:23:57
-reuters
+yahoo will keep search queries for 18 months
+yahoo once touted its pledge to erase search data after 90 days. now it plans to keep the data for longer than its competitors, angering privacy advocates.
+http://feeds.nytimes.com/click.phdo?i=94fa59eab2e58163683848e82373f615
+33459
+19 Apr 2011 05:21:41
+nyt
 sci_tech

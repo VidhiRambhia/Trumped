@@ -1,7 +1,7 @@
-house votes to repeal regs on internet access
-republicans said the fcc lacked the authority to promulgate the rules.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/yahaod7vam0/2011-04-08-house-vote-internet-rules.htm
-32807
-08 Apr 2011 22:35:53
-ut
+the times and bit.ly roll out 'nyti.ms' short links
+the new york times introduced twitter-friendly links starting with "nyti.ms" and powered by bit.ly.
+http://feeds.nytimes.com/click.phdo?i=642cb2aee6a56ad03d36152f63ca1558
+32757
+17 Dec 2009 15:54:52
+nyt
 sci_tech

@@ -1,7 +1,7 @@
-children's place says customer database hacked
-children's place retail stores inc said its customer database has been hacked, and clients were sent an unauthorized email directing them to a website where they were asked to enter their credit card numbers for a software upgrade.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/zzswkg_oo4g/us-childrensplace-idustre73j3dg20110420
-3789
-20 Apr 2011 15:58:40
+toshiba 2010/11 net likely to beat forecast: nikkei
+toshiba corp is likely to post a forecast-beating 130 billion yen ($1.6 billion ) net profit for the 2010/11 business year that ended on march 31, boosted by robust sales of flash memory chips for smartphones and tablet pcs, the nikkei business daily reported.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/a11g26ajowa/us-toshiba-profit-idustre73i05r20110419
+3776
+19 Apr 2011 02:56:33
 reuters
 sci_tech

@@ -1,7 +1,7 @@
-setting browser tabs to open at start-up
-time-saving tip: all the popular web browsers will let you save a group of tabs so that your browser will open them all whenever it starts.
-http://feeds.nytimes.com/click.phdo?i=fc881c2ebcb5767ae2bb3c72af953f9e
-13475
-27 May 2011 13:57:45
-nyt
+citizen science: armies of volunteers aid research
+projects harnessing volunteers and the internet have expanded rapidly in recent years.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/7rsnkqyci50/2011-05-08-citizen-science_n.htm
+13456
+09 May 2011 03:01:23
+ut
 sci_tech

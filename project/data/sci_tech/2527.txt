@@ -1,7 +1,7 @@
-analysis: data breach shows new "spear-phishing" risk
-tens of millions of customers and employees of major banks, hotels and retailers are now at risk of "spear-phishing" attacks after hackers stole their email addresses in what may become one of the biggest data breaches ever, security experts warned.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/kbri_wnxbas/us-hackers-epsilon-idustre7336dz20110405
-30781
-06 Apr 2011 01:09:05
-reuters
+apple patents way to prevent concert piracy
+a new patent filed by apple could help the music and movie industries thwart copyright violation by disabling mobile phone cameras that try to record concerts and movies.
+http://feeds.nytimes.com/click.phdo?i=e9619dad1e8b712ba74c378d90e2fea0
+30750
+04 Jun 2011 04:03:44
+nyt
 sci_tech

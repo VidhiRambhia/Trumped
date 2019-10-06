@@ -1,7 +1,7 @@
-android@home lets you control lights, appliances
-google's android@home framework is a set of protocols for controlling  home appliances through any android device.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/xjwtwllyp2s/1
-27216
-10 May 2011 23:41:00
-ut
+techstars nurtures start-ups with mentors
+the new york chapter of techstars hopes a start-up incubator that matches successful technologists with entrepreneurs will push the new companies along faster and find them find financing.
+http://feeds.nytimes.com/click.phdo?i=bceebcfb2e3642b08885a1b5e085e312
+27214
+09 Apr 2011 19:15:57
+nyt
 sci_tech

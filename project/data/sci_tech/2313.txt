@@ -1,7 +1,7 @@
-rim acquires mobile app tool developer tinyhippos
-blackberry maker research in motion says it has bought ontario-based startup tinyhippos inc, creator of ripple, a cross-platform mobile application development and testing tool.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/s6cluqvrufg/us-rim-acquisition-tinyhippos-idustre72p1n620110326
-28248
-26 Mar 2011 18:27:11
+exclusive: snafus forced twitter datacenter move: sources
+an ambitious plan to prevent "fail whales," the cartoon icon that greets frustrated twitter users during network outages, turned into a fail whale of its own.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/70ycobqxjtc/us-twitter-idustre7307b220110401
+28233
+02 Apr 2011 01:48:34
 reuters
 sci_tech

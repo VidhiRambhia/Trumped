@@ -1,7 +1,7 @@
-bing taps facebook data for fight with google
-bing announces new social features that tap in facebook data to improve search results.
-http://feeds.nytimes.com/click.phdo?i=c65736f518a97210342dc323a7409c78
-25391
-17 May 2011 01:50:07
-nyt
+the leaderboard: ethan's top 5 first-person shooters
+reader ethan shares his top 5 first-person shooters.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/tarkowdjdu4/1
+25380
+26 May 2011 19:53:00
+ut
 sci_tech

@@ -1,7 +1,7 @@
-nearly 50% of tweets consumed are from tiny fraction of twitter users
-a mere 20,000 twitter users steal almost half of the spotlight on twitter, which now ropes in a billion tweets every week.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/4mevkgsjfqk/1
-6912
-29 Mar 2011 21:38:00
-ut
+verizon racing to fix high-speed network outage
+verizon wireless was scrambling on wednesday to resolve an outage of its highest-speed u.s. wireless network, on which the top u.s. cellular carrier is relying to drive future growth.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/mzn-mes4crq/us-verizon-idustre73r03920110428
+6911
+28 Apr 2011 02:35:20
+reuters
 sci_tech

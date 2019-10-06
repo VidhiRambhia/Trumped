@@ -1,7 +1,7 @@
-tuneup's deduper finds duplicate tracks in itunes
-by analyzing the waveforms of each track, the add-on can sequester exact duplicates while recognizing that a live version is different.
-http://feeds.nytimes.com/click.phdo?i=dcae1ee053af3944c92016ec078ad27b
-6062
-01 Jun 2011 18:21:38
-nyt
+'gamers heart japan' urges video game fans to donate to japan's recovery
+godzilla is not the only pop culture mammoth to hail from japan. so do classic video game characters such as pac-man, mario and sonic. so when ...
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/jhyvmnofxz0/1
+6059
+01 Apr 2011 15:50:00
+ut
 sci_tech

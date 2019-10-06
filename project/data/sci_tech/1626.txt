@@ -1,7 +1,7 @@
-gadget plays high-def video
-deborah porterfield takes a look at some new products on the market.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/sjkqoaujmn8/2011-05-07-new-products_n.htm
-20033
-07 May 2011 22:49:50
-ut
+netflix is available for some android devices, but not all
+netflix's streaming app is now available for some android devices, but the fact that only some android phones get the latest features and others do not is a continuing problem for google.
+http://feeds.nytimes.com/click.phdo?i=18e57aa3b33134e11a4d6460bbd0f97f
+20030
+13 May 2011 23:17:09
+nyt
 sci_tech

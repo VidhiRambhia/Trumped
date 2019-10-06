@@ -1,7 +1,7 @@
-greentech: batteries that can multitask
-engineers are looking into building electric vehicles with carbon composites that can also serve as batteries. the materials could make the vehicles lighter as they also provide extra electricity.
-http://feeds.nytimes.com/click.phdo?i=9ee24888d0f469da00c3e66f61778828
-6470
-07 Jun 2011 01:35:11
-nyt
+more confusion swirls around google, apple tracking
+companies risk losing control of message that location tracking embedded in iphones and android handsets is desirable, mostly benign.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/gv8pjot41qa/2011-04-25-iphone-tracking.htm
+6466
+26 Apr 2011 19:53:55
+ut
 sci_tech

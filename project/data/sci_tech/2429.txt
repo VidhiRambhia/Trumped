@@ -1,7 +1,7 @@
-japan quake magnitude raised to 9.0 from 8.9: usgs
-the u.s. geological survey on monday raised the magnitude of the deadly earthquake that struck offshore northern japan on friday to 9.0 from 8.9.
-http://feeds.reuters.com/~r/reuters/sciencenews/~3/xgpjqj3etmi/us-japan-quake-usgs-magnitude-idustre72d8gt20110314
-29679
-15 Mar 2011 00:29:56
-reuters
+q&a: automatically saving office files (and sanity)
+microsoft office's autorecover function can save an open file at regular intervals.
+http://feeds.nytimes.com/click.phdo?i=b35d57c739e1e9601eed7c1df06fe5e7
+29659
+01 Jun 2011 18:15:12
+nyt
 sci_tech

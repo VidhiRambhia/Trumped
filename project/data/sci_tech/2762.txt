@@ -1,7 +1,7 @@
-france fines google in street view data case
-france's data protection regulator has fined google 100,000 euros for collecting private data from wireless networks when its camera-equipped cars gathered footage for its on-line map service street view.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/0o8urtkuzok/us-google-idustre72k6ao20110321
-33715
-21 Mar 2011 20:43:25
-reuters
+localresponse taps the social web to help businesses draw customers
+localresponse wants to help businesses ping their customers with coupons and rewards.
+http://feeds.nytimes.com/click.phdo?i=fe4c1072007eff4f43cbdaa1ae98802f
+33707
+19 Apr 2011 07:00:15
+nyt
 sci_tech

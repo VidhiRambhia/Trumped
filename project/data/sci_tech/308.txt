@@ -1,7 +1,7 @@
-u.s. arms makers said to be bleeding secrets to cyber foes
-top pentagon contractors have been bleeding secrets for years as a result of penetrations of their computer networks, current and former national security officials say.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/kd36m7v5wzu/us-usa-cyber-penetration-idustre74u76x20110531
-3775
-01 Jun 2011 01:24:31
+hackers attack another sony network and post data
+hackers broke into sony corp's computer networks and accessed the information of more than 1 million customers to show the vulnerability of the electronic giant's systems, the latest of several security breaches undermining confidence in the company.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/hjd2uumnvli/us-sony-idustre74q1ec20110603
+3774
+03 Jun 2011 13:18:29
 reuters
 sci_tech

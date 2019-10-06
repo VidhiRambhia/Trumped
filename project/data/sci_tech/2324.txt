@@ -1,7 +1,7 @@
-app smart: the dress, the ring, the in-laws: navigating the royal wedding
-for those unfamiliar with the latest information surrounding the royal wedding, several apps shed light on questions related to the occasion.
-http://feeds.nytimes.com/click.phdo?i=82ae868faa56c11c79ce866a949d674b
-28388
-21 Apr 2011 16:58:29
-nyt
+study: netflix is biggest source of internet traffic
+move over, web surfing. netflix movies now take up more of the internet pipes going into north american homes.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/eypyg-giz_a/2011-05-17-netflix-internet-traffic_n.htm
+28387
+17 May 2011 22:18:08
+ut
 sci_tech

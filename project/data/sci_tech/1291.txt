@@ -1,7 +1,7 @@
-q&a: finding your system version
-how to call up information about the hardware and software installed on your computer.
-http://feeds.nytimes.com/click.phdo?i=63400a370a848131e966d4533a5b90f4
-16233
-19 Apr 2011 12:32:32
-nyt
+nasa sticks with orion capsule for deep-space travel
+nasa's capsule for deep-space travel will be based on vehicle that had been part of canceled moon program.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/3xswadvncqw/2011-05-24-nasa-orion-capsule_n.htm
+16232
+24 May 2011 21:36:44
+ut
 sci_tech

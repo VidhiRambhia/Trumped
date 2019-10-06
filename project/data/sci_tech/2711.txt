@@ -1,7 +1,7 @@
-an old hand takes a fresh approach to 'data sprawl'
-ed iacobucci, an industry veteran and founder of citrix, has an ambitious start-up that is tackling the challenge of "data sprawl."
-http://feeds.nytimes.com/click.phdo?i=b390d800eaaf19f5ffa3ac7823dcf321
-33100
-01 Jun 2011 13:30:54
-nyt
+solar panels win reprieve in eu toxic substance ban
+eu ministers voted on friday to exempt solar panels from a ban on toxic substances in electrical goods, enabling leading maker first solar to keep selling its products in the industry's biggest market.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/hmfimtgaslo/us-eu-toxics-idustre74q24g20110527
+33096
+27 May 2011 14:26:43
+reuters
 sci_tech

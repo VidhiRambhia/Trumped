@@ -1,7 +1,7 @@
-app smart extra: a weather app that works
-after a steady rain of mediocre weather apps, myweather - available for adroid and ios devices - is a welcome burst of sunshine.
-http://feeds.nytimes.com/click.phdo?i=475c4516d81e31beb4f7f3991cfbf27d
-34106
-23 May 2011 18:17:25
+debating species law and climate change
+various views on the role of endangered species law in limiting risks from global warming.
+http://feeds.nytimes.com/click.phdo?i=bbec634bbbbb78c5427e555d7eaa8548
+34060
+25 Apr 2011 23:09:48
 nyt
 sci_tech

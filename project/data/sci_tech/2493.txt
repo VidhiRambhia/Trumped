@@ -1,7 +1,7 @@
-password service warns of possible hacking attack
-lastpass, a service for managing passwords, said that out of concern about a possible hacking attack, it would force its more than 1 million users to change their master passwords.
-http://feeds.nytimes.com/click.phdo?i=3cbd637c9cc571dce8194e87297c2fad
-30370
-05 May 2011 23:34:50
-nyt
+t-mobile announces sidekick 4g
+t-mobile plans to revive its sidekick brand with the release of a 4g version manufactured by samsung.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/efpfkbxwvwq/1
+30363
+15 Mar 2011 16:59:00
+ut
 sci_tech

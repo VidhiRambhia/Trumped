@@ -1,7 +1,7 @@
-infosys eyes buys in europe, japan, and healthcare sector
-infosys technologies ltd, india's no. 2 software services exporter, is on the hunt for acquisitions in europe and japan and in industries including healthcare and public services, its chief executive said on sunday.
-http://feeds.reuters.com/~r/reuters/technologynews/~3/2fw9gjkskfg/us-india-infosys-acquisition-idustre7400oq20110501
-34607
-01 May 2011 08:07:54
+linkedin site has security vulnerabilities: expert
+linkedin's professional networking website has security flaws that makes users' accounts vulnerable to attack by hackers who could break in without ever needing passwords, according to a security researcher who identified the problem.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/x5o5k1pyb_0/us-linkedin-security-idustre74l3iy20110522
+34600
+23 May 2011 01:18:49
 reuters
 sci_tech

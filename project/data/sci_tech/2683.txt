@@ -1,7 +1,7 @@
-the times and bit.ly roll out 'nyti.ms' short links
-the new york times introduced twitter-friendly links starting with "nyti.ms" and powered by bit.ly.
-http://feeds.nytimes.com/click.phdo?i=642cb2aee6a56ad03d36152f63ca1558
-32757
-17 Dec 2009 15:54:52
-nyt
+dish, echostar in contempt of court in tivo patent fight
+a panel of federal appeals judges has found dish network and echostar in contempt of court for failing to abide by an injunction against using ...
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/qgxte3ncz5a/2011-04-20-dish-network-echostar-in-contempt.htm
+32732
+21 Apr 2011 05:26:40
+ut
 sci_tech

@@ -1,7 +1,7 @@
-advertising: magazines get ready for tablets
-a new breed of electronic devices is expected in the months and years ahead, and publishers are already creating apps and planning to charge for their content.
-http://feeds.nytimes.com/click.phdo?i=39bf27fe2be9cebe7e7098e570fa8c3e
-25990
-16 Dec 2009 07:05:25
-nyt
+a closer look at travel newsletters that deliver deals to your inbox
+a host of publishers send e-mail newsletters full of deals to get you off the couch and traveling.
+http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/w_oxbpf_4ds/1
+25988
+18 Apr 2011 11:00:00
+ut
 sci_tech

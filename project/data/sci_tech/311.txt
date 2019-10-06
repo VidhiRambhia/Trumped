@@ -1,7 +1,7 @@
-apple updates software to fix problems with collecting location data
-apple offered an update to its ios devices on wednesday to fix issues involving the collection of location data.
-http://feeds.nytimes.com/click.phdo?i=747fd1a58d85a9bed64aac77155fc230
-3798
-04 May 2011 21:47:10
-nyt
+children's place says customer database hacked
+children's place retail stores inc said its customer database has been hacked, and clients were sent an unauthorized email directing them to a website where they were asked to enter their credit card numbers for a software upgrade.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/zzswkg_oo4g/us-childrensplace-idustre73j3dg20110420
+3789
+20 Apr 2011 15:58:40
+reuters
 sci_tech

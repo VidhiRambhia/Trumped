@@ -1,7 +1,7 @@
-another hack at sony; 120 passwords go online
-a hacker claims to have stolen names and passwords belonging to 120 users of sony europe's website and published them to the internet.
-http://rssfeeds.usatoday.com/~r/usatoday-techtopstories/~3/bfbp8_rhwca/2011-06-04-sony-data-breach_n.htm
-11503
-04 Jun 2011 20:44:45
-ut
+observatory: a lizard that builds with the family in mind
+researchers have found that great desert skinks build and maintain elaborate tunneled homes, where they live in cooperative multigenerational family groups.
+http://feeds.nytimes.com/click.phdo?i=c953d6ffcb71d6cb238fd60390a68c1a
+11468
+17 May 2011 04:50:05
+nyt
 sci_tech

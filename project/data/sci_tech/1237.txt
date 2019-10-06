@@ -1,7 +1,7 @@
-on pinwheels, networks and resilience
-sustaining flows of information on the path to durable human progress.
-http://feeds.nytimes.com/click.phdo?i=f9c7ef4efcc89391a8ca1b2667a63107
-15462
-15 Apr 2011 21:51:52
+q&a: printing properly in ie 9
+why web pages printed from microsoft internet explorer 9 may come out looking funny and what you should do to fix it.
+http://feeds.nytimes.com/click.phdo?i=118489cbe5e8b6fb58521368709a3135
+15455
+06 Jun 2011 12:17:06
 nyt
 sci_tech
