@@ -56,6 +56,11 @@ The aforementioned users are stored locally in the Ropsten network connected the
 To set up user and/or publisher accounts on local Ethereum, Ganache transactions can be used to connect to Metamask wallets. Change to `Custom RPC` on Metamask to the RPC server on Ganache. Import account using Ganache account key.
 <br><br>
 In `Trumped/`, run:
+`FakeNewsClassifier.py`.
+`NewsTypeClassifier.py`.
+to train and save the results of these models on your local machine.
+<br><br>
+In `Trumped/`, run:
 `python run.py`.
 <br>Select appropriate accounts for respective transactions.
 
