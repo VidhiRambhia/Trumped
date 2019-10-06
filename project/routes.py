@@ -184,6 +184,8 @@ def publish():
 
 		else:
 			blacklisted_user = Blacklist(email = user.email,user_id = user.id)
+			db.session.add(blacklisted_user)
+			db.session.commit()
 			return render_template("blacklist.html", title='Fake Alert!')
 
 	else:
