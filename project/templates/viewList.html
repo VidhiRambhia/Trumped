@@ -4,21 +4,22 @@
 <body>
   <br><br><br><br><br>
   <div class = "dim hoverable col s12">
-      {% for news in newsList: %}
-        
-        <div class="hoverable blue-grey-lighten-2">
-          
-          <a href="{{ url_for('viewNews', article_id = news.id) }}">{{ news.title }} </a><br>
-          {{ news.author }} <br>
-          <hr>
-        </div>
-        
-      {% endfor %}
+    {% for news in newsList %}
+    
+    <div class="hoverable blue-grey-lighten-2">
+      
+      <a href="{{ url_for('viewNews', article_id = news.id) }}">{{ news.title }} </a><br>
+      {{ news.author }} <br>
+      <hr>
+    </div>
+    
+    {% endfor %}
   </div>
 
   <div class="dim">
     <div class = "dim">
-      <p><a href="{{ url_for('viewList', type_of_post='world') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>World</b></a>
+      <p>
+        <a href="{{ url_for('viewList', type_of_post='world') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>World</b></a>
         <a href="{{ url_for('viewList', type_of_post='business') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Business</b></a>
         <a href="{{ url_for('viewList', type_of_post='health') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Health</b></a>
         <a href="{{ url_for('viewList', type_of_post='sci_tech') }}" class="button-border hoverable waves-effect waves-light btn-small amber accent-2 black-text"><b>Sci-Tech</b></a>
