@@ -2,11 +2,11 @@
 {% block content %}
 <hr>
 
-<div class = "dim card amber accent-2 hoverable col s12">
+<div class = "dim card transparent hoverable col s12">
     <form method="POST" action="/publish" enctype="multipart/form-data">
         {{ form.hidden_tag() }}
         <fieldset class="form-group">
-            <h5 class="brown-text-text darken-1"><b>Title</b> of your article </h5>
+            <h5 class="yellow-text lighten-5">Title of your article</h5>
             <div class="form-group">
                 {% if form.title.errors %}
                 {{ form.title(class="form-control form-control-lg is-invalid") }}
@@ -16,14 +16,14 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ form.title(class="form-control form-control-lg") }}
+                {{ form.title(class="form-control white form-control-lg") }}
                 {% endif %}
             </div>
 
             <br>
 
             <div class="form-group">
-                <h5 class = "brown-text-text darken-1">Author/Reporter </h5>
+                <h5 class = "yellow-text lighten-5">Author/Reporter </h5>
                 {% if form.author.errors %}
                 {{ form.author(class="form-control form-control-lg is-invalid") }}
                 <div class="invalid-feedback">
@@ -32,14 +32,14 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ form.author(class="form-control form-control-lg") }}
+                {{ form.author(class="form-control white form-control-lg") }}
                 {% endif %}
             </div>
 
             <br>
 
             <div class="form-group">
-                <h5 class = "brown-text-text darken-1">Article <b>content</b></h5>
+                <h5 class = "yellow-text lighten-5">Article content</h5>
                 {% if form.text.errors %}
                 {{ form.text(class="form-control form-control-lg is-invalid") }}
                 <div class="invalid-feedback">
@@ -48,14 +48,14 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ form.text(class="form-control form-control-lg") }}
+                {{ form.text(class="form-control white form-control-lg") }}
                 {% endif %}
             </div>
 
 
-            <div class="form-group valign center-align">
-                <b> {{ form.submit(class="button-border hoverable waves-effect waves-light btn-large brown darken-1 white-text") }} </b>
-            </div>
+        <div class="form-group valign center-align">
+            <b> {{ form.submit(class="button-border hoverable waves-effect waves btn-large white-text") }} </b>
+        </div>
         </fieldset>
     </form>
 </div>

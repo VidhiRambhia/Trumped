@@ -3,17 +3,17 @@
 <hr>
 <div class="row valign wrapper">
     <div class="col s4">
-      <h3 class="account-heading amber-text"><b>Welcome, </b>{{ current_user.name }}</h3><br>
+      <h3 class="account-heading yellow-text lighten-5"><b>Welcome, </b>{{ current_user.name }}</h3><br>
   </div>
 </div>
 
-<div class = "dim card amber lighten-3 hoverable col s12">
+<div class = "dim card transparent hoverable col s12">
     <form method="POST" action="/account" enctype="multipart/form-data">
         {{ form.hidden_tag() }}
-        <fieldset class="form-group">
-            <h4 class="brown-text-text darken-1"><b>Account Info</b></h4>
+        <fieldset class="form-group transparent">
+            <h4 class="yellow-text lighten-5"><b>Account Info</b></h4>
             <div class="form-group">
-                <h5 class = "brown-text darken-1">Is this username fine?</h5>
+                <h5 class = "yellow-text lighten-5">Is this username fine?</h5>
                 {% if form.name.errors %}
                 {{ form.name(class="form-control form-control-lg is-invalid") }}
                 <div class="invalid-feedback">
@@ -22,12 +22,12 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ form.name(class="form-control form-control-lg") }}
+                {{ form.name(class="form-control black-text yellow lighten-5 form-control-lg") }}
                 {% endif %}
             </div>
 
-            <div class="form-group">
-                <h5 class = "brown-text darken-1">Email</h5>
+            <div class="form-group white-text">
+                <h5 class = "yellow-text lighten-5">Email</h5>
                 {% if form.email.errors %}
                 {{ form.email(class="form-control form-control-lg is-invalid") }}
                 <div class="invalid-feedback">
@@ -36,13 +36,14 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ form.email(class="form-control form-control-lg") }}
+                {{ form.email(class="form-control black-text yellow lighten-5 form-control-lg") }}
                 {% endif %}
             </div>
 
         </fieldset>
         <div class="form-group valign center-align">
-            <b> {{ form.submit(class="button-border hoverable waves-effect waves-light btn-large brown darken-1 white-text") }} </b>
+            
+            <b>{{ form.submit(class="button-border hoverable waves-effect blue-grey darken-1 btn-large white-text") }}</b>
         </div>
         <br>
     </form>
