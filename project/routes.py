@@ -158,7 +158,7 @@ def publish():
 		print(predicted[0])
 
 		## Uncomment this part
-		if predicted[0] == 0:
+		if predicted[0] == 0 :
 			post.real = 1
 			category_list = ["sport", "world", "us", "business", "health", "entertainment", "sci_tech"]
 
