@@ -1,0 +1,7 @@
+apple issues fix to combat malware
+apple issued a security update on tuesday to address persistent attacks targeting mac users with fake antivirus software.
+http://feeds.nytimes.com/click.phdo?i=6b25ceb751bb5e87f0be2d9b64f0fe14
+16814
+02 Jun 2011 20:28:02
+nyt
+sci_tech

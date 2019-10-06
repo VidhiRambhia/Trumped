@@ -1,0 +1,7 @@
+password service warns of possible hacking attack
+lastpass, a service for managing passwords, said that out of concern about a possible hacking attack, it would force its more than 1 million users to change their master passwords.
+http://feeds.nytimes.com/click.phdo?i=3cbd637c9cc571dce8194e87297c2fad
+30370
+05 May 2011 23:34:50
+nyt
+sci_tech

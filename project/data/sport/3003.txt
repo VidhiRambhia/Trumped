@@ -1,0 +1,7 @@
+readers recall their favorite nicknames
+times readers share their favorite sports nicknames.
+http://feeds1.nytimes.com/~r/nyt/rss/sports/~3/livcpk1thjs/
+12869
+13 May 2011 03:48:54
+nyt
+sport

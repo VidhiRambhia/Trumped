@@ -1,0 +1,7 @@
+rsa offers to replace securids after lockheed hacking
+data storage firm emc ltd has offered to replace millions of potentially compromised "securid" electronic keys after hackers used data stolen from its rsa security division to break into lockheed martin's network.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/s8usvxkvc0e/us-emc-lockheed-idustre7560ea20110608
+8778
+08 Jun 2011 06:46:43
+reuters
+sci_tech

@@ -1,0 +1,7 @@
+microsoft latest security risk: "cookiejacking"
+a computer security researcher has found a flaw in microsoft corp's widely used internet explorer browser that he said could let hackers steal credentials to access facebook, twitter and other websites.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/2tuuk0llrpo/us-microsoft-security-idustre74o86f20110525
+22054
+26 May 2011 00:16:43
+reuters
+sci_tech

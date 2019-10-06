@@ -1,0 +1,7 @@
+users help a weather site hone its forecasts
+weather underground is trying to lure users to its site by incorporating data from amateur weather trackers.
+http://feeds.nytimes.com/click.phdo?i=c71aa04d5ea2fd4716c10a1d15704c03
+29844
+21 Mar 2011 05:45:38
+nyt
+business

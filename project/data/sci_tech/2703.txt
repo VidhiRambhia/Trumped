@@ -1,0 +1,7 @@
+a tool to harvest iphone location data
+the new york times company's research and development lab released a free web-based tool that creates an research database of anonymized location data from iphones and ipads.
+http://feeds.nytimes.com/click.phdo?i=319e819e78ec8b41f34fd9cab60f01ed
+33028
+05 May 2011 18:53:27
+nyt
+sci_tech

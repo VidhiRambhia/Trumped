@@ -1,0 +1,7 @@
+tech audit: a virtual winery's i.t. challenges
+the applications for tracking wine that's aging in barrels don't   make it easy to locate a particular barrel of wine.
+http://feeds.nytimes.com/click.phdo?i=dbea62649bb59581ec2fadddad4b6478
+25975
+08 Jun 2011 19:21:20
+nyt
+business
