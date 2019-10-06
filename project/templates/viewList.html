@@ -63,20 +63,20 @@
           {% endwith %}
           <div class="dim row">
             <div class = "col s9">
-              {% if newsList != []: %}
+              
               {% for news in newsList: %}
-              {
+              
                 <div class="hoverable blue-grey-lighten-2">
-                  <h6> {{ news.id }} </h6><br>
-                  <b>{{ news.title }} </b><br>
+                  
+                  <a href="{{ url_for('viewNews', id = news.id) }}">{{ news.title }} </a><br>
                   {{ news.author }} <br>
                   <hr>
                 </div>
-              }
+              
               {% endfor %}
-              {% else %}
+              
               <h4 class="red-text darken-4"> No matching news articles found :( </h4>
-              {% endif %}
+              
             </div>
 
             <div class = "row col s3">
