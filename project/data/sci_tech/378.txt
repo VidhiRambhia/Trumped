@@ -1,0 +1,7 @@
+microsoft demonstrates windows phone updates
+microsoft announced updates to its windows phone platform, adding new multitasking features and giving developers broader access to hardware functions.
+http://feeds.nytimes.com/click.phdo?i=b9d95d96a1097f14efe2c6b35ef9c8ef
+4504
+14 Apr 2011 03:55:53
+nyt
+sci_tech

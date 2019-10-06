@@ -1,4 +1,24 @@
 {% extends "layout.html" %}
 {% block content %}
 
+<div>
+	<div class = "col s12">
+		{% if newsList != []: %}
+			{% for news in newsList %}
+			{
+				<h6> {{ news.id }} </h6><br>
+				<b>{{ news.title }} </b><br>
+				{{ news.author }} <br>
+				<hr>
+			}
+			{% endfor %}
+		{% else %}
+			<h4> No matching news articles found :( </h4>
+		{% endif %}
+	</div>
+
+	
+
+</div>
+
 {% endblock content %}

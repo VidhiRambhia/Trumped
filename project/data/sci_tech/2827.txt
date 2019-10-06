@@ -1,0 +1,7 @@
+linkedin site has security vulnerabilities: expert
+linkedin's professional networking website has security flaws that makes users' accounts vulnerable to attack by hackers who could break in without ever needing passwords, according to a security researcher who identified the problem.
+http://feeds.reuters.com/~r/reuters/technologynews/~3/x5o5k1pyb_0/us-linkedin-security-idustre74l3iy20110522
+34600
+23 May 2011 01:18:49
+reuters
+sci_tech

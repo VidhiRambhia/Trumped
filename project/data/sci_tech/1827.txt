@@ -1,0 +1,7 @@
+google says it collects location data on phones for location services
+google said it collects location information from android phones, but only anonymously and with user consent.
+http://feeds.nytimes.com/click.phdo?i=4cefc925d6935e4f93a4a23bdf833471
+22369
+23 Apr 2011 01:55:29
+nyt
+sci_tech

@@ -1,0 +1,7 @@
+q&a: printing properly in ie 9
+why web pages printed from microsoft internet explorer 9 may come out looking funny and what you should do to fix it.
+http://feeds.nytimes.com/click.phdo?i=118489cbe5e8b6fb58521368709a3135
+15455
+06 Jun 2011 12:17:06
+nyt
+sci_tech

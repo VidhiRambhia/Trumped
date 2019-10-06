@@ -1,0 +1,7 @@
+online aid for making 'the decision'
+a simple web site asks applicants where they've applied and what factors are important, then spits  out a customized ranking.
+http://feeds.nytimes.com/click.phdo?i=f66a0708e9bf436fdf07681e2509c597
+15864
+09 Mar 2011 17:16:08
+nyt
+us

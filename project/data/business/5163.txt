@@ -1,0 +1,7 @@
+wnet local news, via web
+the public television company wnet will offer local news, first via the web on a new site, and hopefully later on television.
+http://feeds.nytimes.com/click.phdo?i=085b9c47b4f7abd2124603fbfde8f882
+33669
+21 Mar 2011 04:10:50
+nyt
+business

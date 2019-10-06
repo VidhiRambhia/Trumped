@@ -1,0 +1,7 @@
+stress tests for europe's banks take longer than expected
+Some input data
+http://feeds.nytimes.com/click.phdo?i=2dbc5ef397ae5dc2059f43e0dbf4fdee
+13300
+03 Jun 2011 02:03:02
+nyt
+business

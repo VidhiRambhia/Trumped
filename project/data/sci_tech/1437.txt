@@ -1,0 +1,7 @@
+q&a: poisoned pictures on the web
+security researchers have found thousands of photos from searches within the google images site that have been infected with malicious code. here's what to do to avoid them.
+http://feeds.nytimes.com/click.phdo?i=334dcdfc22617c244ee869c428b51c52
+17910
+08 Jun 2011 00:58:17
+nyt
+sci_tech

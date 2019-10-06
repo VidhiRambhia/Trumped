@@ -1,0 +1,7 @@
+localresponse taps the social web to help businesses draw customers
+localresponse wants to help businesses ping their customers with coupons and rewards.
+http://feeds.nytimes.com/click.phdo?i=fe4c1072007eff4f43cbdaa1ae98802f
+33707
+19 Apr 2011 07:00:15
+nyt
+sci_tech
