@@ -8,11 +8,6 @@ CONTENTS OF THIS FILE
  * Extension
  * Maintainers
 
-<img src="https://github.com/VidhiRambhia/Trumped/blob/master/demo.gif" width=1000>
-Demo video<hr>
-<br>
-
-
 INTRODUCTION
 ------------
 
@@ -23,6 +18,13 @@ INTRODUCTION
   * **Machine Learning model:**<br> For classfying a given article as fake or real and blacklisting the publishers accordingly <br><br>
   * **Smart Contracts:** Users pay ether to authentic news Publishers; each Publisher is asked for a security deposit before publishing their news article <br><br>
   * **Website:** Where the Publishers publish their news for the Users to see <br><br>
+
+<br>
+
+<img src="https://github.com/VidhiRambhia/Trumped/blob/master/demo.gif" width=1000>
+Demo video<hr>
+<br>
+
 
 TECHSTACK
 ---------
