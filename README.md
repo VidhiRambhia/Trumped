@@ -20,10 +20,8 @@ INTRODUCTION
   * **Website:** Where the Publishers publish their news for the Users to see <br><br>
 
 <br>
-
+Demo video:
 <img src="https://github.com/VidhiRambhia/Trumped/blob/master/demo.gif" width=1000>
-Demo video<hr>
-<br>
 
 
 TECHSTACK
