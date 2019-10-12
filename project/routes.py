@@ -199,7 +199,7 @@ def view():
 	return render_template("view.html",title = 'View Custom News')
 
 
-@app.route("/viewList/<type_of_post>")
+@app.route("/viewList/<type_of_post>", methods = ['GET','POST'])
 def viewList(type_of_post):
 	newsList = Posts.query.filter_by(type_of_post=type_of_post).all()
 	return render_template("viewList.html",title = 'View News', newsList = newsList)
